@@ -11,8 +11,8 @@ class Footer extends Component {
     this.state = {
       footerItems: [
         {
-          title: "HIRIC",
-          icon: "mdi mdi-alien",
+          title: "JUMBATEC",
+         
           links: [
             { linkTitle: "Página Inicial", link: "#" },
             { linkTitle: "Sobre nós", link: "#" },
