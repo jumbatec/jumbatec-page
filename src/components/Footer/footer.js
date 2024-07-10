@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Form, Input } from "reactstrap";
 
-//Import Footer link
+// Importar links do rodapé
 import FooterLinks from "./footer-links";
 
 class Footer extends Component {
@@ -14,27 +14,27 @@ class Footer extends Component {
           title: "HIRIC",
           icon: "mdi mdi-alien",
           links: [
-            { linkTitle: "Home", link: "#" },
-            { linkTitle: "About us", link: "#" },
-            { linkTitle: "Careers", link: "#" },
-            { linkTitle: "Contact us", link: "#" },
+            { linkTitle: "Página Inicial", link: "#" },
+            { linkTitle: "Sobre nós", link: "#" },
+            { linkTitle: "Carreiras", link: "#" },
+            { linkTitle: "Contacte-nos", link: "#" },
           ],
         },
         {
-          title: "Information",
+          title: "Informação",
           links: [
-            { linkTitle: "Terms & Condition", link: "#" },
-            { linkTitle: "About us", link: "#" },
-            { linkTitle: "Jobs", link: "#" },
-            { linkTitle: "Bookmarks", link: "#" },
+            { linkTitle: "Termos e Condições", link: "#" },
+            { linkTitle: "Sobre nós", link: "#" },
+            { linkTitle: "Vagas", link: "#" },
+            { linkTitle: "Marcadores", link: "#" },
           ],
         },
         {
-          title: "Support",
+          title: "Suporte",
           links: [
             { linkTitle: "FAQ", link: "#" },
-            { linkTitle: "Contact", link: "#" },
-            { linkTitle: "Disscusion", link: "#" },
+            { linkTitle: "Contacto", link: "#" },
+            { linkTitle: "Discussão", link: "#" },
           ],
         },
       ],
@@ -49,18 +49,18 @@ class Footer extends Component {
       "assets/colors/" + color + ".css";
   };
 
-  toggleThem = () =>{
+  toggleThem = () => {
     if (document.body.getAttribute("data-bs-theme") === "light") {
-      document.body.setAttribute('data-bs-theme', 'dark');
-    }else{
-      document.body.setAttribute('data-bs-theme', 'light');
+      document.body.setAttribute("data-bs-theme", "dark");
+    } else {
+      document.body.setAttribute("data-bs-theme", "light");
     }
-    
-  }
+  };
 
   toggleSwitcher = () => {
     this.setState({ isSwitchToggle: !this.state.isSwitchToggle });
   };
+
   render() {
     return (
       <React.Fragment>
@@ -69,13 +69,14 @@ class Footer extends Component {
             <Row>
               {this.state.footerItems.map((item, key) => (
                 <Col lg="3" className="mt-4" key={key}>
-                {item.icon ?  
-                <Link className="footer-logo text-uppercase" href="#">
-                        <i className={item.icon}></i>
-                        <span>{item.title}</span>
+                  {item.icon ? (
+                    <Link className="footer-logo text-uppercase" to="#">
+                      <i className={item.icon}></i>
+                      <span>{item.title}</span>
                     </Link>
-                    :
-                  <h4>{item.title}</h4>}
+                  ) : (
+                    <h4>{item.title}</h4>
+                  )}
                   <div className="text-muted mt-4">
                     <ul className="list-unstyled footer-list">
                       {item.links.map((link, key) => (
@@ -89,12 +90,12 @@ class Footer extends Component {
               ))}
 
               <Col lg="3" className="mt-4">
-                <h4>Subscribe</h4>
+                <h4>Subscreva</h4>
                 <div className="text-muted mt-4">
                   <p>
-                    In an ideal world this text wouldn’t exist, a client would
-                    acknowledge the importance of having web copy before the
-                    design starts.
+                    Num mundo ideal, este texto não existiria, um cliente
+                    reconheceria a importância de ter texto na web antes do
+                    design começar.
                   </p>
                 </div>
                 <Form className="form subscribe">
@@ -114,14 +115,13 @@ class Footer extends Component {
 
         <FooterLinks />
 
-
         <div
           id="style-switcher"
           className={this.state.isSwitchToggle ? "show" : " "}
           style={{ left: this.state.isSwitchToggle ? "0px" : "-189px" }}
         >
           <div>
-            <h3>Select your color</h3>
+            <h3>Escolha a sua cor</h3>
             <ul className="pattern">
               <li>
                 <Link
@@ -182,9 +182,14 @@ class Footer extends Component {
             </ul>
           </div>
           <div className="bottom">
-          <Link to="#" id="mode" className="mode-btn text-white" onClick={this.toggleThem}>
-                <i className="mdi mdi-weather-sunny bx-spin mode-light"></i>
-                <i className="mdi mdi-moon-waning-crescent mode-dark"></i>
+            <Link
+              to="#"
+              id="mode"
+              className="mode-btn text-white"
+              onClick={this.toggleThem}
+            >
+              <i className="mdi mdi-weather-sunny bx-spin mode-light"></i>
+              <i className="mdi mdi-moon-waning-crescent mode-dark"></i>
             </Link>
             <Link
               to="#"

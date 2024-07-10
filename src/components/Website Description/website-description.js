@@ -11,16 +11,15 @@ class WebsiteDescription extends Component {
           <Container>
             <Row>
               <Col lg="12" className="text-center">
-                <h2 className="text-white">Build your dream website today</h2>
+                <h2 className="text-white">Crie o seu Website dos sonhos hoje</h2>
                 <p className="pt-3 home-desc mx-auto">
-                  But nothing the copy said could convince her and so it didn’t
-                  take long until a few insidious Copy Writers ambushed her.
+                  Desenvolvemos websites responsivos e profissionais para o seu negócio, além de configurar emails empresariais para comunicação eficiente.
                 </p>
                 <Link
                   to="#"
                   className="btn btn-light mt-5 waves-effect waves-light"
                 >
-                  View Plan & Pricing
+                  Ver Planos e Preços
                 </Link>
               </Col>
             </Row>

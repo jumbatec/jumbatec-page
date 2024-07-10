@@ -13,17 +13,17 @@
 .navbar-custom.navbar-white .navbar-nav li a:focus,
 .navbar-custom.navbar-white .navbar-nav li a:active,
 .play-btn,.blog-title:hover,.social-icon:hover i{
-    color: #59CD90 !important;
+    color: #106C92 !important;
 }
 
 
 .section-title-border, .bg-primary, .btn-primary,.features-item-list li:before,.process-left-icon-1 i,
 .process-left-icon-2 i, .account-card .form-check-input:checked {
-    background-color: #59CD90 !important;
+    background-color: #106C92 !important;
 }
 
 .btn-primary,.play-btn,.account-card .form-check-input:checked {
-    border-color:#59CD90 !important;
+    border-color:#106C92 !important;
 }
 
 .btn-primary:hover,
@@ -35,7 +35,7 @@
 .btn-primary:focus,
 .btn-primary:hover,
 .open > .dropdown-toggle.btn-primary{
-	background-color: #41a26f;
+	background-color: #106C92;
 }
 
 .btn-primary:hover,
@@ -47,7 +47,7 @@
 .btn-primary:focus,
 .btn-primary:hover,
 .open > .dropdown-toggle.btn-primary{
-	border-color: #41a26f;
+	border-color: #106C92;
 }
 
 

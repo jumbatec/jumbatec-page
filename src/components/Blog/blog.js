@@ -13,28 +13,28 @@ class Blog extends Component {
       {
         id: 1,
         image: "assets/images/blog/img-1.jpg",
-        topic: "UI & UX Design",
-        title: "Doing a cross country road trip",
+        topic: "Desenvolvimento de Software",
+        title: "Tendências em Desenvolvimento de Software",
         description:
-          "She packed her seven versalia, put her initial into the belt and made herself on the way..",
+          "Explore as últimas tendências e práticas no desenvolvimento de software personalizado e como elas podem beneficiar o seu negócio.",
         link: "",
       },
       {
         id: 2,
         image: "assets/images/blog/img-2.jpg",
-        topic: "Digital Marketing",
-        title: "New exhibition at our Museum",
+        topic: "Marketing Digital",
+        title: "Estratégias Eficazes de Marketing Digital",
         description:
-          "Pityful a rethoric question ran over her cheek, then she continued her way.",
+          "Descubra estratégias eficazes de marketing digital para aumentar a visibilidade e o engajamento da sua marca online.",
         link: "",
       },
       {
         id: 3,
         image: "assets/images/blog/img-3.jpg",
-        topic: "Travelling",
-        title: "Why are so many people..",
+        topic: "Inteligência Artificial",
+        title: "Impacto da IA nos Negócios",
         description:
-          "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.",
+          "Entenda como a inteligência artificial está transformando os negócios e como a sua empresa pode se beneficiar dessas inovações.",
         link: "",
       },
     ],
@@ -46,8 +46,8 @@ class Blog extends Component {
           <Container>
             {/* Render section title */}
             <SectionTitle
-              title="Latest News"
-              description="Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean class at a euismod mus luctus quam."
+              title="Últimas Notícias"
+              description="Fique atualizado com as novidades e tendências em soluções tecnológicas que a JUMBATEC oferece para transformar o seu negócio."
             />
 
             <Row className="mt-4">

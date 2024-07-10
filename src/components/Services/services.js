@@ -11,61 +11,44 @@ class Services extends Component {
   state = {
     services: [
       {
-        title: "Digital Design",
-        icon: "pe-7s-diamond",
-        description:
-          "Some quick example text to build on the card title and make up the bulk of the card's content. Moltin gives platform.",
-      },
-      {
-        title: "Unlimited Colors",
-        icon: "pe-7s-display2",
-        description:
-          "Credibly brand standards compliant users without extensible services. Anibh euismod tincidunt laoreet Ipsum passage.",
-      },
-      {
-        title: "Strategy Solutions",
-        icon: "pe-7s-piggy",
-        description:
-          "Separated they live in Bookmarksgrove right at the coast of the Semantics, and large language ocean neary regelia.",
-      },
-      {
-        title: "Awesome Support",
-        icon: "pe-7s-science",
-        description:
-          "It is a paradisematic country, in which roasted parts of sentences fly into your mouth leave for the far World.",
-      },
-      {
-        title: "Truly Multipurpose",
-        icon: "pe-7s-news-paper",
-        description:
-          "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
-      },
-      {
-        title: "Easy to customize",
-        icon: "pe-7s-plane",
-        description:
-          "Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia.",
-      },
-      {
-        title: "Pixel Perfect Design",
-        icon: "pe-7s-arc",
-        description:
-          "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
-      },
-      {
-        title: "Perfect Toolbox",
+        title: "Desenvolvimento de Software à Medida",
         icon: "pe-7s-tools",
         description:
-          "Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.",
+          "Desenvolvemos software personalizado para atender às necessidades específicas de cada cliente, utilizando as mais recentes tecnologias.",
       },
       {
-        title: "Awesome Design",
-        icon: "pe-7s-timer",
+        title: "Soluções de FINTECH",
+        icon: "pe-7s-piggy",
         description:
-          "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.",
+          "Oferecemos soluções financeiras tecnológicas que ajudam empresas a inovar e melhorar seus serviços, incluindo gestão para microcréditos e integração com serviços móveis.",
+      },
+      {
+        title: "Criação de Websites e Emails Empresariais",
+        icon: "pe-7s-display2",
+        description:
+          "Criamos websites responsivos e profissionais, além de configurar emails empresariais para comunicação eficiente.",
+      },
+      {
+        title: "Marketing Digital",
+        icon: "pe-7s-science",
+        description:
+          "Desenvolvemos estratégias de marketing digital integradas com inteligência artificial para aumentar a visibilidade online e atrair mais clientes.",
+      },
+      {
+        title: "Consultoria em TI",
+        icon: "pe-7s-albums",
+        description:
+          "Oferecemos consultoria especializada em tecnologia da informação para melhorar processos e implementar novas soluções tecnológicas.",
+      },
+      {
+        title: "Desenvolvimento de Soluções em Inteligência Artificial",
+        icon: "pe-7s-smile",
+        description:
+          "Desenvolvemos soluções baseadas em inteligência artificial que automatizam processos e melhoram a eficiência operacional.",
       },
     ],
   };
+
   render() {
     return (
       <React.Fragment>
@@ -73,8 +56,8 @@ class Services extends Component {
           <Container>
             {/* Render section title */}
             <SectionTitle
-              title="Our Services"
-              description="We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value for our clients."
+              title="Nossos Serviços"
+              description="Na JUMBATEC, oferecemos soluções tecnológicas inovadoras e personalizadas para impulsionar o seu negócio."
             />
 
             <Row className="mt-5">

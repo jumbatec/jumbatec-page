@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 
-//Importing Modal
+// Importing Modal
 import ModalSection from "../../components/common/ModalSection";
 
 class Section extends Component {
@@ -21,7 +21,7 @@ class Section extends Component {
   render() {
     return (
       <React.Fragment>
-        <section className="section bg-home home-half" id="home" data-image-src="images/bg-home.jpg"> 
+        <section className="section bg-home home-half" id="home" data-image-src="images/bg-home.jpg">
           <div className="bg-overlay"></div>
           <Container>
             <Row>
@@ -29,14 +29,12 @@ class Section extends Component {
                 lg={{ size: 8, offset: 2 }}
                 className="text-white text-center"
               >
-                <h4 className="home-small-title">Awesome Design</h4>
+                <h4 className="home-small-title">Soluções Inovadoras</h4>
                 <h1 className="home-title">
-                  We love make things amazing and simple
+                  Transformamos Ideias em Realidade
                 </h1>
                 <p className="pt-3 home-desc mx-auto">
-                  Maecenas class semper class semper sollicitudin lectus lorem
-                  iaculis imperdiet aliquam vehicula tempor auctor curabitur
-                  pede aenean ornare.
+                  Na Jumbatec, oferecemos soluções tecnológicas personalizadas para ajudar nossos clientes a alcançar seus objetivos de negócio.
                 </p>
                 <p className="play-shadow mt-4">
                   <Link
@@ -49,7 +47,7 @@ class Section extends Component {
                 </p>
               </Col>
               {/* Render ModalSection Component for Modal */}
-              <ModalSection ref="child" channel="vimeo" videoId="99025203" />
+              <ModalSection ref="child" channel="youtube" videoId="0JBP4N3Xj4Y" />
             </Row>
           </Container>
         </section>

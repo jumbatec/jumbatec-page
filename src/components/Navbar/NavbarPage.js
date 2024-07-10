@@ -21,12 +21,12 @@ class Navbar_Page extends Component {
     this.state = {
       navItems: [
         { id: 1, idnm: "home", navheading: "Home" },
-        { id: 2, idnm: "features", navheading: "Features" },
-        { id: 3, idnm: "services", navheading: "Services" },
-        { id: 3, idnm: "about", navheading: "About" },
-        { id: 4, idnm: "pricing", navheading: "Pricing" },
+        { id: 2, idnm: "features", navheading: "Plataformas" },
+        { id: 3, idnm: "services", navheading: "Serviços" },
+        { id: 3, idnm: "about", navheading: "Sobre Nós" },
+        { id: 4, idnm: "pricing", navheading: "Preços" },
         { id: 5, idnm: "blog", navheading: "Blog" },
-        { id: 6, idnm: "contact", navheading: "Contact" },
+        { id: 6, idnm: "contact", navheading: "Contacte-nos" },
       ],
       isOpenMenu: false,
     };
@@ -73,9 +73,9 @@ class Navbar_Page extends Component {
               id="navbar"
             >
               <Container>
-                <NavbarBrand className="logo text-uppercase" href="/">
-                  <i className="mdi mdi-alien"></i>Hiric
-                </NavbarBrand>
+        <img src="assets/images/logo-horizontal-light.svg" alt="JUMBATEC Logo" style={{ height: 'auto', maxHeight: '50px' }} />
+
+      
 
                 <NavbarToggler className="" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" onClick={this.toggle}>
                   <i className="mdi mdi-menu"></i>
@@ -114,7 +114,7 @@ class Navbar_Page extends Component {
                           color="primary"
                           className=" navbar-btn btn-rounded waves-effect waves-light"
                         >
-                          Try it Free
+                        Dmonstração
                         </Button>
                       </NavItem>
                     </Nav>

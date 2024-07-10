@@ -1,72 +1,73 @@
 import React, { Component } from "react";
 import { Container, Row } from "reactstrap";
 
-//Import Section Title
+// Importar Título da Seção
 import SectionTitle from "../common/section-title";
 
-//Import Pricing
+// Importar Caixa de Preços
 import PricingBox from "./pricing-box";
 
 class Pricing extends Component {
   state = {
-    pricings: [
+    precarios: [
       {
         id: 1,
-        title: "Economy",
-        price: "9.90",
-        duration: "MONTH",
+        title: "Plano Básico",
+        price: "15,000 MZN",
+        duration: "POR PROJETO",
         features: {
-          bandwith: "1GB",
-          onlinespace: "50MB",
-          support: "No",
-          domain: "1",
-          hiddenFees: "No",
+          descricao: "Criação de Website e Email Empresarial",
+          paginas: "Até 5 Páginas",
+          design: "Design Responsivo",
+          dominio: "1 Domínio Gratuito",
+          suporte: "Suporte Básico",
         },
       },
       {
         id: 2,
-        title: "DELUXE",
-        price: "19.90",
-        duration: "MONTH",
+        title: "Plano Intermediário",
+        price: "20,000 MZN",
+        duration: "POR PROJETO",
         isRibbon: true,
         features: {
-          bandwith: "10GB",
-          onlinespace: "500MB",
-          support: "Yes",
-          domain: "10",
-          hiddenFees: "No",
+          descricao: "Tudo no Plano Básico, mais:",
+          paginas: "Até 10 Páginas",
+          design: "Design Personalizado",
+          seo: "Otimização de Motores de Pesquisa (SEO)",
+          suporte: "Suporte Prioritário",
         },
       },
       {
         id: 3,
-        title: "ULTIMATE",
-        price: "29.90",
-        duration: "MONTH",
+        title: "Plano Avançado",
+        price: "30,000 MZN",
+        duration: "POR PROJETO",
         features: {
-          bandwith: "100GB",
-          onlinespace: "2 GB",
-          support: "Yes",
-          domain: "Unlimited",
-          hiddenFees: "No",
+          descricao: "Tudo no Plano Intermediário, mais:",
+          paginas: "Páginas Ilimitadas",
+          redesSociais: "Integração com Redes Sociais",
+          ecommerce: "Funcionalidade de E-commerce",
+          suporte: "Suporte Premium",
         },
       },
     ],
   };
+
   render() {
     return (
       <React.Fragment>
         <section className="section bg-light" id="pricing">
           <Container>
-            {/* Render section title */}
+            {/* Renderizar título da seção */}
             <SectionTitle
-              title="Our Pricing"
-              description="Call to action pricing table is really crucial to your for your business website. Make your bids stand-out with amazing options."
+              title="Nossos Preços"
+              description="A tabela de preços é realmente crucial para o seu site de negócios. Faça suas ofertas se destacarem com opções incríveis."
             />
 
             <Row className="mt-5">
-              {/* Render Pricing Box */}
-              {this.state.pricings.map((pricing, key) => (
-                <PricingBox key={key} pricing={pricing} />
+              {/* Renderizar Caixa de Preços */}
+              {this.state.precarios.map((precario, key) => (
+                <PricingBox key={key} pricing={precario} />
               ))}
             </Row>
           </Container>

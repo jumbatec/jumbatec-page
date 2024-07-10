@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 
-//Import Team Box
+// Import Team Box
 import TeamBox from "./team-box";
 
 class AboutUs extends Component {
@@ -9,27 +9,27 @@ class AboutUs extends Component {
     members: [
       {
         id: 1,
-        name: "Frank Johnson",
-        image: "assets/images/team/img-1.jpg",
-        post: "CEO",
+        name: "Judiao Mbaua",
+        image: "assets/images/team/judiao.jpg",
+        post: "Diretor Executivo",
       },
       {
         id: 2,
-        name: "Elaine Stclair",
-        image: "assets/images/team/img-2.jpg",
-        post: "DESIGNER",
+        name: "Eneth Vanessa",
+        image: "assets/images/team/eneth.jpg",
+        post: "Diretora de Marketing e Vendas",
       },
       {
         id: 3,
-        name: "Wanda Arthur",
-        image: "assets/images/team/img-3.jpg",
-        post: "DEVELOPER",
+        name: "Edmilson",
+        image: "assets/images/team/edmilson.jpg",
+        post: "Desenvolvedor de Software",
       },
       {
         id: 4,
-        name: "Joshua Stemple",
-        image: "assets/images/team/img-4.jpg",
-        post: "MANAGER",
+        name: "Hassimina Mbaua",
+        image: "assets/images/team/hassimina.jpg",
+        post: "Diretora Financeira",
       },
     ],
   };
@@ -42,15 +42,10 @@ class AboutUs extends Component {
               <Col lg={{ size: 8, offset: 2 }}>
                 <div className="about-title mx-auto text-center">
                   <h2 className="font-weight-light">
-                    A Digital web studio creating stunning &amp; Engaging online
-                    Experiences{" "}
+                    Conheça a Equipe JUMBATEC
                   </h2>
                   <p className="text-muted pt-4">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus mus donec various versions have evolved quam
-                    felis.
+                    A JUMBATEC orgulha-se de contar com uma equipe qualificada e dedicada, liderada por profissionais experientes como Judiao Mbaua, Eneth Vanessa, Edmilson e Hassimina Mbaua.
                   </p>
                 </div>
               </Col>
