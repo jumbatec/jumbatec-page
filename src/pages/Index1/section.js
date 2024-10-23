@@ -4,6 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 
 // Importing Modal
 import ModalSection from "../../components/common/ModalSection";
+import { withTranslation } from "react-i18next";
 
 class Section extends Component {
   constructor() {
@@ -19,9 +20,14 @@ class Section extends Component {
   };
 
   render() {
+    const { t } = this.props;
     return (
       <React.Fragment>
-        <section className="section bg-home home-half" id="home" data-image-src="images/bg-home.jpg">
+        <section
+          className="section bg-home home-half"
+          id="home"
+          data-image-src="images/bg-home.jpg"
+        >
           <div className="bg-overlay"></div>
           <Container>
             <Row>
@@ -29,12 +35,10 @@ class Section extends Component {
                 lg={{ size: 8, offset: 2 }}
                 className="text-white text-center"
               >
-                <h4 className="home-small-title">Soluções Inovadoras</h4>
-                <h1 className="home-title">
-                  Transformamos Ideias em Realidade
-                </h1>
+                <h4 className="home-small-title">{t("innovativeSolutions")}</h4>
+                <h1 className="home-title">{t("transformIdeas")}</h1>
                 <p className="pt-3 home-desc mx-auto">
-                  Na Jumbatec, oferecemos soluções tecnológicas personalizadas para ajudar nossos clientes a alcançar seus objetivos de negócio.
+                  {t("jumbatecSolutions")}
                 </p>
                 <p className="play-shadow mt-4">
                   <Link
@@ -47,7 +51,11 @@ class Section extends Component {
                 </p>
               </Col>
               {/* Render ModalSection Component for Modal */}
-              <ModalSection ref="child" channel="youtube" videoId="iyLGHiHTgdU" />
+              <ModalSection
+                ref="child"
+                channel="youtube"
+                videoId="iyLGHiHTgdU"
+              />
             </Row>
           </Container>
         </section>
@@ -56,4 +64,4 @@ class Section extends Component {
   }
 }
 
-export default Section;
+export default withTranslation()(Section);

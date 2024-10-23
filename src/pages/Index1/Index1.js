@@ -32,7 +32,7 @@ class Index1 extends Component {
                 <Section />
 
                 {/* Importing Client */}
-                <Clients />
+                {/* <Clients /> */}
 
                 {/* Importing Features */}
                 <Features />
@@ -47,7 +47,7 @@ class Index1 extends Component {
                 <AboutUs />
 
                 {/* Importing Pricing */}
-                <Pricing />
+                {/* <Pricing /> */}
 
                 {/* Importing Testimonials
                 <Testimonials /> */}

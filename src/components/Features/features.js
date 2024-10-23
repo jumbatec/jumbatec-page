@@ -1,8 +1,11 @@
 import React, { Component } from "react";
+import { withTranslation } from "react-i18next";
 import { Container, Row, Col } from "reactstrap";
 
 class Features extends Component {
   render() {
+    const { t } = this.props;
+
     return (
       <React.Fragment>
         <section className="section" id="features">
@@ -10,22 +13,20 @@ class Features extends Component {
             <Row className="align-items-center">
               <Col lg="5" className="order-2 order-lg-1">
                 <div className="features-box mt-5 mt-lg-0">
-                  <h3>
-                    A  Nossa plataforma de Gestão Escolar
-                  </h3>
+                  <h3>{t("ourSchoolManagementPlatform")}</h3>
                   <p className="text-muted web-desc">
-                    Acompanha todo o ciclo do estudante, desde o registo inicial até ao controle detalhado de propinas e integração com serviços de pagamento móveis como o Mpesa.
+                    {t("platformDescription")}
                   </p>
                   <ul className="text-muted list-unstyled mt-4 features-item-list">
-                    <li className="">Monitorização contínua do progresso académico.</li>
-                    <li className="">Envio de mensagens de pré-aviso de pagamento.</li>
-                    <li className="">Gestão simplificada e eficiente para instituições de ensino.</li>
+                    <li>{t("academicProgressMonitoring")}</li>
+                    <li>{t("paymentReminderMessages")}</li>
+                    <li>{t("efficientManagement")}</li>
                   </ul>
                   <a
                     href="#"
                     className="btn btn-primary mt-4 waves-effect waves-light"
                   >
-                    Solicitar Demonstração <i className="mdi mdi-arrow-right"></i>
+                    {t("requestDemo")} <i className="mdi mdi-arrow-right"></i>
                   </a>
                 </div>
               </Col>
@@ -46,5 +47,4 @@ class Features extends Component {
   }
 }
 
-export default Features;
-
+export default withTranslation()(Features);

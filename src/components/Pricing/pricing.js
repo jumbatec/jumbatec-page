@@ -6,68 +6,70 @@ import SectionTitle from "../common/section-title";
 
 // Importar Caixa de Preços
 import PricingBox from "./pricing-box";
+import { withTranslation } from "react-i18next";
 
 class Pricing extends Component {
-  state = {
-    precarios: [
+  state = {};
+
+  render() {
+    const { t } = this.props;
+
+    const precarios = [
       {
         id: 1,
-        title: "Plano Básico",
+        title: t("pricings.basicPlan"), // Use translation key for title
         price: "15,000 MZN",
-        duration: "POR PROJETO",
+        duration: t("pricings.perProject"), // Use translation key for duration
         features: {
-          descricao: "Criação de Website e Email Empresarial",
-          paginas: "Até 5 Páginas",
-          design: "Design Responsivo",
-          dominio: "1 Domínio Gratuito",
-          suporte: "Suporte Básico",
+          descricao: t("pricings.features.basic.description"), // Use translation key for feature
+          paginas: t("pricings.features.basic.pages"), // Use translation key for feature
+          design: t("pricings.features.basic.design"), // Use translation key for feature
+          dominio: t("pricings.features.basic.domain"), // Use translation key for feature
+          suporte: t("pricings.features.basic.support"), // Use translation key for feature
         },
       },
       {
         id: 2,
-        title: "Plano Intermediário",
+        title: t("pricings.intermediatePlan"), // Use translation key for title
         price: "20,000 MZN",
-        duration: "POR PROJETO",
+        duration: t("pricings.perProject"), // Use translation key for duration
         isRibbon: true,
         features: {
-          descricao: "Tudo no Plano Básico, mais:",
-          paginas: "Até 10 Páginas",
-          design: "Design Personalizado",
-          seo: "Otimização de Motores de Pesquisa (SEO)",
-          suporte: "Suporte Prioritário",
+          descricao: t("pricings.features.intermediate.description"), // Use translation key for feature
+          paginas: t("pricings.features.intermediate.pages"), // Use translation key for feature
+          design: t("pricings.features.intermediate.design"), // Use translation key for feature
+          seo: t("pricings.features.intermediate.seo"), // Use translation key for feature
+          suporte: t("pricings.features.intermediate.support"), // Use translation key for feature
         },
       },
       {
         id: 3,
-        title: "Plano Avançado",
+        title: t("pricings.advancedPlan"), // Use translation key for title
         price: "30,000 MZN",
-        duration: "POR PROJETO",
+        duration: t("pricings.perProject"), // Use translation key for duration
         features: {
-          descricao: "Tudo no Plano Intermediário, mais:",
-          paginas: "Páginas Ilimitadas",
-          redesSociais: "Integração com Redes Sociais",
-          ecommerce: "Funcionalidade de E-commerce",
-          suporte: "Suporte Premium",
+          descricao: t("pricings.features.advanced.description"), // Use translation key for feature
+          paginas: t("pricings.features.advanced.pages"), // Use translation key for feature
+          redesSociais: t("pricings.features.advanced.socialMedia"), // Use translation key for feature
+          ecommerce: t("pricings.features.advanced.ecommerce"), // Use translation key for feature
+          suporte: t("pricings.features.advanced.support"), // Use translation key for feature
         },
       },
-    ],
-  };
-
-  render() {
+    ];
     return (
       <React.Fragment>
         <section className="section bg-light" id="pricing">
           <Container>
             {/* Renderizar título da seção */}
             <SectionTitle
-              title="Nossos Preços"
-              description="A tabela de preços é realmente crucial para o seu site de negócios. Faça suas ofertas se destacarem com opções incríveis."
+              title={t("pricings.sectionTitle")} // Use translation key for title
+              description={t("pricings.sectionDescription")} // Use translation key for description
             />
 
             <Row className="mt-5">
               {/* Renderizar Caixa de Preços */}
-              {this.state.precarios.map((precario, key) => (
-                <PricingBox key={key} pricing={precario} />
+              {precarios.map((precario) => (
+                <PricingBox key={precario.id} pricing={precario} />
               ))}
             </Row>
           </Container>
@@ -77,4 +79,4 @@ class Pricing extends Component {
   }
 }
 
-export default Pricing;
+export default withTranslation()(Pricing);

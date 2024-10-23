@@ -6,6 +6,8 @@ import {
   Route,
   Routes
 } from "react-router-dom";
+import "./i18n";
+import { LanguageProvider } from "./LanguageContext";
 
 class App extends Component {
   constructor(props){
@@ -14,13 +16,15 @@ class App extends Component {
   }
     render() {
         return (
-          <React.Fragment>
+        <LanguageProvider>
+            <React.Fragment>
             <Routes>
               {routes.map((route, idx) => (
                 <Route path={route.path} element={route.component} key={idx} />
               ))}
             </Routes>
         </React.Fragment>
+        </LanguageProvider>
       );
     }
   }

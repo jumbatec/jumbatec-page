@@ -3,69 +3,74 @@ import { Container, Row, Col } from "reactstrap";
 
 // Import Team Box
 import TeamBox from "./team-box";
+import { withTranslation } from "react-i18next";
 
 class AboutUs extends Component {
   state = {
-    members: [
+   
+  };
+  render() {
+
+    const { t } = this.props;
+
+    const members = [
       {
         id: 1,
-        name: "Judiao Mbaua",
+        name: t("teamMembers.judiaoMbaua"), // Use translation key for name
         image: "assets/images/team/judiao.jpg",
-        post: "Diretor Executivo",
+        post: t("teamMembers.executiveDirector"), // Use translation key for post
       },
       {
         id: 2,
-        name: "Eneth Vanessa",
+        name: t("teamMembers.enethVanessa"), // Use translation key for name
         image: "assets/images/team/eneth.jpg",
-        post: "Diretora de Marketing e Vendas",
+        post: t("teamMembers.marketingAndSalesDirector"), // Use translation key for post
       },
       {
         id: 3,
-        name: "Edmilson",
+        name: t("teamMembers.edmilson"), // Use translation key for name
         image: "assets/images/team/edmilson.jpg",
-        post: "Desenvolvedor de Software",
+        post: t("teamMembers.softwareDeveloper"), // Use translation key for post
       },
       {
         id: 4,
-        name: "Hassimina Mbaua",
+        name: t("teamMembers.hassiminaMbaua"), // Use translation key for name
         image: "assets/images/team/hassimina.jpg",
-        post: "Diretora Financeira",
+        post: t("teamMembers.financialDirector"), // Use translation key for post
       },
-    ],
-  };
-  render() {
+    ];
     return (
       <React.Fragment>
         <section className="section" id="about">
-          <Container>
-            <Row>
-              <Col lg={{ size: 8, offset: 2 }}>
-                <div className="about-title mx-auto text-center">
-                  <h2 className="font-weight-light">
-                    Conheça a Equipe JUMBATEC
-                  </h2>
-                  <p className="text-muted pt-4">
-                    A JUMBATEC orgulha-se de contar com uma equipe qualificada e dedicada, liderada por profissionais experientes como Judiao Mbaua, Eneth Vanessa, Edmilson e Hassimina Mbaua.
-                  </p>
-                </div>
-              </Col>
-            </Row>
-            <Row className="mt-5">
-              {/* Render Team members */}
-              {this.state.members.map((member, key) => (
-                <TeamBox
-                  key={key}
-                  name={member.name}
-                  image={member.image}
-                  post={member.post}
-                />
-              ))}
-            </Row>
-          </Container>
+        <Container>
+          <Row>
+            <Col lg={{ size: 8, offset: 2 }}>
+              <div className="about-title mx-auto text-center">
+                <h2 className="font-weight-light">
+                  {t("aboutUsTitle")}
+                </h2>
+                <p className="text-muted pt-4">
+                  {t("aboutUsDescription")}
+                </p>
+              </div>
+            </Col>
+          </Row>
+          <Row className="mt-5">
+            {/* Render Team members */}
+            {members.map((member) => (
+              <TeamBox
+                key={member.id}
+                name={member.name}
+                image={member.image}
+                post={member.post}
+              />
+            ))}
+          </Row>
+        </Container>
         </section>
       </React.Fragment>
     );
   }
 }
 
-export default AboutUs;
+export default withTranslation()(AboutUs);
