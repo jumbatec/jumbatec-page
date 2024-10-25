@@ -11,7 +11,7 @@
     "transformIdeas": "Transformamos Ideias em Realidade",
     "jumbatecSolutions": "Na Jumbatec, oferecemos soluções tecnológicas personalizadas para ajudar nossos clientes a alcançar seus objetivos de negócio.",
     "ourSchoolManagementPlatform": "A Nossa plataforma de Gestão Escolar",
-    "platformDescription": "Acompanha todo o ciclo do estudante, desde o registo inicial até ao controle detalhado de propinas e integração com serviços de pagamento móveis como o Mpesa.",
+    "platformDescription": "Acompanha todo o ciclo do estudante, desde o registo inicial até ao controle detalhado de propinas e integração com serviços de pagamento Mpesa, e-Mola e Entida e Referencia.",
     "academicProgressMonitoring": "Monitorização contínua do progresso académico.",
     "paymentReminderMessages": "Envio de mensagens de pré-aviso de pagamento.",
     "efficientManagement": "Gestão simplificada e eficiente para instituições de ensino.",
@@ -128,6 +128,15 @@
     "subscribe": "Subscreva",
     "idealWorldText": "Num mundo ideal, este texto não existiria, um cliente reconheceria a importância de ter texto na web antes do design começar.",
     "emailPlaceholder": "Email"
-  }
+  },
+  "mpesaIntegration":" Integração com WhatsApp",
+  "title": "Revolucione os Seus Serviços Financeiros com a Nossa Solução Fintech!",
+    "description": "Desbloqueie o futuro das finanças com uma plataforma flexível, segura e escalável, projetada para atender às necessidades de instituições de microfinanças, cooperativas de crédito e Microcréditos.",
+    "features2": {
+      "0":"Gerencie empréstimos, pagamentos e contas de clientes com facilidade",
+      "1":"Integração perfeita com pagamentos eletrónicos e gateways de pagamento",
+      "2":"Personalizável para se adequar ao modelo e necessidades do seu negócio",
+      "3":"Baseada na nuvem e totalmente escalável para o crescimento"
+    }
   }
 }

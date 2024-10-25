@@ -21,9 +21,10 @@ class Features extends Component {
                     <li>{t("academicProgressMonitoring")}</li>
                     <li>{t("paymentReminderMessages")}</li>
                     <li>{t("efficientManagement")}</li>
+                    <li>{t("mpesaIntegration")}</li>
                   </ul>
                   <a
-                    href="#"
+                    href="#contact"
                     className="btn btn-primary mt-4 waves-effect waves-light"
                   >
                     {t("requestDemo")} <i className="mdi mdi-arrow-right"></i>

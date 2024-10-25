@@ -12,6 +12,7 @@ import GetStarted from '../../components/Get Started/get-started';
 import Blog from '../../components/Blog/blog';
 import ContactUs from '../../components/Contact Us/contact-us';
 import Footer from '../../components/Footer/footer';
+import Feature2 from '../../components/Features/feature2';
 
 class Index1 extends Component {
     constructor(props) {
@@ -36,6 +37,7 @@ class Index1 extends Component {
 
                 {/* Importing Features */}
                 <Features />
+                <Feature2/>
 
                 {/* Importing Services */}
                 <Services />
