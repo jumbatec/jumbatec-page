@@ -1,0 +1,133 @@
+{
+  "translation": {
+    "home": "Início",
+    "features": "Plataformas",
+    "services": "Serviços",
+    "about": "Sobre Nós",
+    "pricing": "Preços",
+    "blog": "Blog",
+    "contact": "Contacte-nos",
+    "innovativeSolutions": "Soluções Inovadoras",
+    "transformIdeas": "Transformamos Ideias em Realidade",
+    "jumbatecSolutions": "Na Jumbatec, oferecemos soluções tecnológicas personalizadas para ajudar nossos clientes a alcançar seus objetivos de negócio.",
+    "ourSchoolManagementPlatform": "A Nossa plataforma de Gestão Escolar",
+    "platformDescription": "Acompanha todo o ciclo do estudante, desde o registo inicial até ao controle detalhado de propinas e integração com serviços de pagamento móveis como o Mpesa.",
+    "academicProgressMonitoring": "Monitorização contínua do progresso académico.",
+    "paymentReminderMessages": "Envio de mensagens de pré-aviso de pagamento.",
+    "efficientManagement": "Gestão simplificada e eficiente para instituições de ensino.",
+    "requestDemo": "Solicitar Demonstração",
+    "customSoftwareDevelopment": "Desenvolvimento de Software à Medida",
+    "customSoftwareDescription": "Desenvolvemos software personalizado para atender às necessidades específicas de cada cliente, utilizando as mais recentes tecnologias.",
+    "fintechSolutions": "Soluções de FINTECH",
+    "fintechDescription": "Oferecemos soluções financeiras tecnológicas que ajudam empresas a inovar e melhorar seus serviços, incluindo gestão para microcréditos e integração com serviços móveis.",
+    "websiteCreation": "Criação de Websites e Emails Empresariais",
+    "websiteDescription": "Criamos websites responsivos e profissionais, além de configurar emails empresariais para comunicação eficiente.",
+    "digitalMarketing": "Marketing Digital",
+    "digitalMarketingDescription": "Desenvolvemos estratégias de marketing digital integradas com inteligência artificial para aumentar a visibilidade online e atrair mais clientes.",
+    "itConsulting": "Consultoria em TI",
+    "itConsultingDescription": "Oferecemos consultoria especializada em tecnologia da informação para melhorar processos e implementar novas soluções tecnológicas.",
+    "aiSolutions": "Desenvolvimento de Soluções em Inteligência Artificial",
+    "aiSolutionsDescription": "Desenvolvemos soluções baseadas em inteligência artificial que automatizam processos e melhoram a eficiência operacional.",
+    "ourServices": "Nossos Serviços",
+    "servicesDescription": "Na JUMBATEC, oferecemos soluções tecnológicas inovadoras e personalizadas para impulsionar o seu negócio.",
+    "createYourDreamWebsite": "Crie o seu Website dos sonhos hoje",
+    "responsiveWebsitesDescription": "Desenvolvemos websites responsivos e profissionais para o seu negócio, além de configurar emails empresariais para comunicação eficiente.",
+    "viewPlansAndPricing": "Pedir Cotação",
+    "aboutUsTitle": "Conheça a Equipe JUMBATEC",
+    "aboutUsDescription": "A JUMBATEC orgulha-se de contar com uma equipe qualificada e dedicada, liderada por profissionais experientes como Judiao Mbaua, Eneth Vanessa, Edmilson e Hassimina Mbaua.",
+    "teamMembers": {
+      "judiaoMbaua": "Judiao Mbaua",
+      "executiveDirector": "Diretor Executivo",
+      "enethVanessa": "Eneth Vanessa",
+      "marketingAndSalesDirector": "Diretora de Marketing e Vendas",
+      "edmilson": "Edmilson",
+      "softwareDeveloper": "Desenvolvedor de Software",
+      "hassiminaMbaua": "Hassimina Mbaua",
+      "financialDirector": "Diretora Financeira"
+    },
+    "pricings": {
+      "sectionTitle": "Nossos Preços",
+      "sectionDescription": "A tabela de preços é realmente crucial para o seu site de negócios. Faça suas ofertas se destacarem com opções incríveis.",
+      "basicPlan": "Plano Básico",
+      "intermediatePlan": "Plano Intermediário",
+      "advancedPlan": "Plano Avançado",
+      "perProject": "POR PROJETO",
+      "features": {
+        "basic": {
+          "description": "Criação de Website e Email Empresarial",
+          "pages": "Até 5 Páginas",
+          "design": "Design Responsivo",
+          "domain": "1 Domínio Gratuito",
+          "support": "Suporte Básico"
+        },
+        "intermediate": {
+          "description": "Tudo no Plano Básico, mais:",
+          "pages": "Até 10 Páginas",
+          "design": "Design Personalizado",
+          "seo": "Otimização de Motores de Pesquisa (SEO)",
+          "support": "Suporte Prioritário"
+        },
+        "advanced": {
+          "description": "Tudo no Plano Intermediário, mais:",
+          "pages": "Páginas Ilimitadas",
+          "socialMedia": "Integração com Redes Sociais",
+          "ecommerce": "Funcionalidade de E-commerce",
+          "support": "Suporte Premium"
+        }
+      }
+    },
+    "joinNow": {
+      "title": "Adira já",
+      "description": "Não perca a chance de fazer parte de nossa comunidade.",
+      "cta": "Adira Agora"
+    },
+    "get_started_title": "Comece Agora",
+    "get_started_description": "Descubra a nossa plataforma FINTECH inovadora, baseada em tecnologias open source, que oferece soluções financeiras de ponta.",
+    "get_started_button": "Pedir Cotação",
+    "blog_title": "Últimas Notícias",
+    "blog_description": "Fique atualizado com as novidades e tendências em soluções tecnológicas que a JUMBATEC oferece para transformar o seu negócio.",
+    "blog_software_development": "Tendências em Desenvolvimento de Software",
+    "blog_software_development_desc": "Explore as últimas tendências e práticas no desenvolvimento de software personalizado e como elas podem beneficiar o seu negócio.",
+    "blog_digital_marketing": "Estratégias Eficazes de Marketing Digital",
+    "blog_digital_marketing_desc": "Descubra estratégias eficazes de marketing digital para aumentar a visibilidade e o engajamento da sua marca online.",
+    "blog_ai_impact": "Impacto da IA nos Negócios",
+    "blog_ai_impact_desc": "Entenda como a inteligência artificial está transformando os negócios e como a sua empresa pode se beneficiar dessas inovações.",
+    "contacts": {
+      "title": "Entre em Contato",
+      "description": "Prosperamos ao criar ideias inovadoras, mas também entendemos que um conceito inteligente deve ser apoiado por resultados mensuráveis.",
+      "officeAddress": "Endereço do Escritório:",
+      "workingHours": "Horário de Funcionamento:",
+      "contact": "Contacto:",
+      "email": "Email:",
+      "namePlaceholder": "Seu nome*",
+      "emailPlaceholder": "Seu email*",
+      "subjectPlaceholder": "Assunto..",
+      "messagePlaceholder": "Sua mensagem...",
+      "submit": "Enviar Mensagem",
+      "errors": {
+        "nameRequired": "Por favor, digite o seu nome",
+        "emailRequired": "Por favor, digite o seu email",
+        "emailInvalid": "Endereço de email inválido",
+        "subjectRequired": "Por favor, digite o assunto"
+      }
+    },
+    "footer": {
+    "jumbatec": "JUMBATEC",
+    "home": "Página Inicial",
+    "aboutUs": "Sobre nós",
+    "careers": "Carreiras",
+    "contactUs": "Contacte-nos",
+    "information": "Informação",
+    "termsAndConditions": "Termos e Condições",
+    "vacancies": "Vagas",
+    "tags": "Marcadores",
+    "support": "Suporte",
+    "faq": "FAQ",
+    "contact": "Contacto",
+    "discussion": "Discussão",
+    "subscribe": "Subscreva",
+    "idealWorldText": "Num mundo ideal, este texto não existiria, um cliente reconheceria a importância de ter texto na web antes do design começar.",
+    "emailPlaceholder": "Email"
+  }
+  }
+}

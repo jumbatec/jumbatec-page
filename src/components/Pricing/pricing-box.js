@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+import { withTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { Col } from "reactstrap";
 
 class PricingBox extends Component {
   render() {
+    const { t } = this.props;
     return (
       <React.Fragment>
         <Col lg="4">
@@ -72,7 +74,7 @@ class PricingBox extends Component {
               to="#"
               className="btn btn-primary waves-effect waves-light mt-5"
             >
-              Adira Agora
+             {t("joinNow.title")}
             </Link>
           </div>
         </Col>
@@ -81,4 +83,4 @@ class PricingBox extends Component {
   }
 }
 
-export default PricingBox;
+export default withTranslation()(PricingBox);

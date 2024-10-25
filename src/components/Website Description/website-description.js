@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+import { withTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 
 class WebsiteDescription extends Component {
   render() {
+    const { t } = this.props;
     return (
       <React.Fragment>
         <section className="section bg-web-desc">
@@ -11,16 +13,16 @@ class WebsiteDescription extends Component {
           <Container>
             <Row>
               <Col lg="12" className="text-center">
-                <h2 className="text-white">Crie o seu Website dos sonhos hoje</h2>
+                <h2 className="text-white">{t("createYourDreamWebsite")}</h2>
                 <p className="pt-3 home-desc mx-auto">
-                  Desenvolvemos websites responsivos e profissionais para o seu negócio, além de configurar emails empresariais para comunicação eficiente.
+                  {t("responsiveWebsitesDescription")}
                 </p>
-                <Link
-                  to="#"
+                <a
+                  href="#contact"
                   className="btn btn-light mt-5 waves-effect waves-light"
                 >
-                  Ver Planos e Preços
-                </Link>
+                  {t("viewPlansAndPricing")}
+                </a>
               </Col>
             </Row>
           </Container>
@@ -30,4 +32,4 @@ class WebsiteDescription extends Component {
   }
 }
 
-export default WebsiteDescription;
+export default withTranslation()(WebsiteDescription);

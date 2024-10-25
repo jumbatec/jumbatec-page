@@ -96,7 +96,7 @@ class ScrollspyNav extends Component {
       window.addEventListener("scroll", () => {
         this.scrollTargetIds.forEach((sectionID, index) => {
           let scrollSectionOffsetTop =
-            document.getElementById(sectionID).offsetTop -
+            document.getElementById(sectionID)?.offsetTop -
             (this.headerBackground
               ? document.querySelector("div[data-nav='list']").scrollHeight
               : 0);

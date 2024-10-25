@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Form, Input } from "reactstrap";
+import { withTranslation } from "react-i18next"; // Import withTranslation for i18next
 
 // Importar links do rodapé
 import FooterLinks from "./footer-links";
@@ -11,30 +12,29 @@ class Footer extends Component {
     this.state = {
       footerItems: [
         {
-          title: "JUMBATEC",
-         
+          title: "footer.jumbatec", // Use translation keys
           links: [
-            { linkTitle: "Página Inicial", link: "#" },
-            { linkTitle: "Sobre nós", link: "#" },
-            { linkTitle: "Carreiras", link: "#" },
-            { linkTitle: "Contacte-nos", link: "#" },
+            { linkTitle: "footer.home", link: "#" },
+            { linkTitle: "footer.aboutUs", link: "#" },
+            { linkTitle: "footer.careers", link: "#" },
+            { linkTitle: "footer.contactUs", link: "#" },
           ],
         },
         {
-          title: "Informação",
+          title: "footer.information",
           links: [
-            { linkTitle: "Termos e Condições", link: "#" },
-            { linkTitle: "Sobre nós", link: "#" },
-            { linkTitle: "Vagas", link: "#" },
-            { linkTitle: "Marcadores", link: "#" },
+            { linkTitle: "footer.termsAndConditions", link: "#" },
+            { linkTitle: "footer.aboutUs", link: "#" },
+            { linkTitle: "footer.vacancies", link: "#" },
+            { linkTitle: "footer.tags", link: "#" },
           ],
         },
         {
-          title: "Suporte",
+          title: "footer.support",
           links: [
-            { linkTitle: "FAQ", link: "#" },
-            { linkTitle: "Contacto", link: "#" },
-            { linkTitle: "Discussão", link: "#" },
+            { linkTitle: "footer.faq", link: "#" },
+            { linkTitle: "footer.contact", link: "#" },
+            { linkTitle: "footer.discussion", link: "#" },
           ],
         },
       ],
@@ -62,6 +62,8 @@ class Footer extends Component {
   };
 
   render() {
+    const { t } = this.props; // Destructure translation function
+
     return (
       <React.Fragment>
         <footer className="footer">
@@ -72,16 +74,16 @@ class Footer extends Component {
                   {item.icon ? (
                     <Link className="footer-logo text-uppercase" to="#">
                       <i className={item.icon}></i>
-                      <span>{item.title}</span>
+                      <span>{t(item.title)}</span> {/* Translate title */}
                     </Link>
                   ) : (
-                    <h4>{item.title}</h4>
+                    <h4>{t(item.title)}</h4> 
                   )}
                   <div className="text-muted mt-4">
                     <ul className="list-unstyled footer-list">
                       {item.links.map((link, key) => (
                         <li key={key}>
-                          <Link to={link.link}>{link.linkTitle}</Link>
+                          <Link to={link.link}>{t(link.linkTitle)}</Link> {/* Translate link title */}
                         </li>
                       ))}
                     </ul>
@@ -90,17 +92,13 @@ class Footer extends Component {
               ))}
 
               <Col lg="3" className="mt-4">
-                <h4>Subscreva</h4>
+                <h4>{t("footer.subscribe")}</h4> {/* Translate subscribe */}
                 <div className="text-muted mt-4">
-                  <p>
-                    Num mundo ideal, este texto não existiria, um cliente
-                    reconheceria a importância de ter texto na web antes do
-                    design começar.
-                  </p>
+                  <p>{t("footer.idealWorldText")}</p> {/* Translate ideal world text */}
                 </div>
                 <Form className="form subscribe">
                   <Input
-                    placeholder="Email"
+                    placeholder={t("footer.emailPlaceholder")} // Translate placeholder
                     className="form-control"
                     required
                   />
@@ -114,11 +112,9 @@ class Footer extends Component {
         </footer>
 
         <FooterLinks />
-
-      
       </React.Fragment>
     );
   }
 }
 
-export default Footer;
+export default withTranslation()(Footer); // Wrap component with withTranslation
