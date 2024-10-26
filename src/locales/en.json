@@ -128,6 +128,15 @@
       "subscribe": "Subscribe",
       "idealWorldText": "In an ideal world, this text wouldn't exist. A customer would recognize the importance of having text on the web before the design starts.",
       "emailPlaceholder": "Email"
+    },
+    "mpesaIntegration":"WhatsApp Integration",
+    "title": "Revolutionize Your Financial Services with Our Fintech Solution!",
+    "description": "Unlock the future of finance with a flexible, secure, and scalable platform designed to meet the needs of microfinance institutions, credit unions, and SMEs.",
+    "features2": {
+      "0":"Manage loans, payments, and customer accounts with ease",
+      "1":"Seamless mobile money and payment gateway integration",
+      "2":"Customizable to fit your business model and needs",
+      "3":"Cloud-based and fully scalable for growth"
     }
   }
 }
