@@ -34,7 +34,7 @@ class Features2 extends Component {
               <Col lg={{ size: 7, order: 2 }} xs={{ order: 1 }}>
                 <div className="features-img mx-auto me-lg-0">
                   <img
-                    src="assets/images/undraw_website_5bo8.svg"
+                    src="assets/images/undraw_finance_re_gnv2.svg"
                     alt="macbook"
                     className="img-fluid"
                   />
