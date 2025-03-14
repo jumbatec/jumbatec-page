@@ -32,6 +32,7 @@ const LanguageDropdown = () => {
   const handleChangeLanguage = (newLang) => {
     changeLanguage(newLang); // Call changeLanguage from context
   };
+  
 
   return (
     <Dropdown isOpen={dropdownOpen} toggle={toggleDropdown} className="me-3">
