@@ -27,16 +27,16 @@ class AboutUs extends Component {
         post: t("teamMembers.marketingAndSalesDirector"), // Use translation key for post
       },
       {
-        id: 3,
-        name: t("teamMembers.edmilson"), // Use translation key for name
-        image: "assets/images/team/edmilson.jpg",
-        post: t("teamMembers.softwareDeveloper"), // Use translation key for post
-      },
-      {
         id: 4,
         name: t("teamMembers.hassiminaMbaua"), // Use translation key for name
         image: "assets/images/team/hassimina.jpg",
         post: t("teamMembers.financialDirector"), // Use translation key for post
+      },
+      {
+        id: 3,
+        name: t("teamMembers.braimo"), // Use translation key for name
+        image: "assets/images/team/braimo.jpg",
+        post: t("teamMembers.softwareDeveloper"), // Use translation key for post
       },
     ];
     return (

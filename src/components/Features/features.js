@@ -17,12 +17,34 @@ class Features extends Component {
                   <p className="text-muted web-desc">
                     {t("platformDescription")}
                   </p>
+                  <p className=" text-mutedfeatures-box mt-5 mt-lg-0">
+                    {t('functions')}
+                  </p>
                   <ul className="text-muted list-unstyled mt-4 features-item-list">
                     <li>{t("academicProgressMonitoring")}</li>
                     <li>{t("paymentReminderMessages")}</li>
                     <li>{t("efficientManagement")}</li>
                     <li>{t("mpesaIntegration")}</li>
+                    <li>{ t('notifications')}</li>
+                    <li>{t('presence')}</li>
                   </ul>
+                  <p className="text-mutedfeatures-box mt-5 mt-lg-0 ">
+                    {t("benefits")}
+                    </p>
+                    <p style={{
+                      marginLeft: 5
+                    }} className=" text-mutedfeatures-box mt-5 mt-lg-0 text-muted">
+                   {t('benefitsDesc')}
+                   </p>
+                   <p className="text-mutedfeatures-box mt-5 mt-lg-0 ">
+                    {t("target")}
+                    </p>
+                    <p style={{
+                      marginLeft: 5
+                    }} className=" text-mutedfeatures-box mt-5 mt-lg-0 text-muted">
+                   {t('targetDesc')}
+                   </p>
+                   
                   <a
                     href="#contact"
                     className="btn btn-primary mt-4 waves-effect waves-light"

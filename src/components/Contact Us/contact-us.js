@@ -1,28 +1,59 @@
-import React from "react";
-import { Container, Row, Col, Button, FormFeedback, Form, Input } from "reactstrap";
+import React, { useContext } from "react";
+import {
+  Container,
+  Row,
+  Col,
+  Button,
+  FormFeedback,
+  Form,
+  Input,
+  InputGroup,
+  InputGroupText,
+} from "reactstrap";
 import { useTranslation } from "react-i18next"; // Import useTranslation hook
 import * as Yup from "yup";
 import { useFormik } from "formik";
 import SectionTitle from "../common/section-title";
+import axios from "axios";
+import { baseUrl } from "../../constants/api";
+import { LanguageContext } from "../../LanguageContext";
 
 const ContactUs = () => {
   const { t } = useTranslation(); // Initialize translation
+  const [error, setError] = React.useState(null);
+  const [success, setSuccess] = React.useState(null);
+  const { lang } = useContext(LanguageContext);
 
   const validation = useFormik({
     enableReinitialize: true,
     initialValues: {
-      name: '',
-      email: '',
-      subject: '',
+      name: "",
+      email: "",
+      contact: "",
+      comments: "",
     },
     validationSchema: Yup.object({
       name: Yup.string().required(t("contacts.errors.nameRequired")),
-      email: Yup.string().email(t("contacts.errors.emailInvalid")).required(t("contacts.errors.emailRequired")),
-      subject: Yup.string().required(t("contacts.errors.subjectRequired")),
+      email: Yup.string()
+        .email(t("contacts.errors.emailInvalid"))
+        .required(t("contacts.errors.emailRequired")),
+      contact: Yup.string().required(t("contacts.errors.contactRequired")),
     }),
     onSubmit: (values) => {
-      console.log("values", values);
-    }
+      axios
+        .post(baseUrl + "/contact", values)
+        .then((response) => {
+          console.log(response);
+          setError(null);
+          setSuccess(t("contacts.success.message"));
+          validation.resetForm();
+        })
+        .catch((error) => {
+          console.log(error);
+          setError(t("contacts.errors.message"));
+          setSuccess(null);
+        });
+    },
   });
 
   return (
@@ -69,8 +100,12 @@ const ContactUs = () => {
             </Col>
             <Col lg="8">
               <div className="custom-form mt-4 pt-4">
-                <p id="error-msg"></p>
-                <div id="message"></div>
+                <p id="error-msg" className="text-danger">
+                  {error}
+                </p>
+                <div id="message" className="text-success">
+                  {success}
+                </div>
                 <Form
                   onSubmit={(e) => {
                     e.preventDefault();
@@ -87,7 +122,9 @@ const ContactUs = () => {
                         onChange={validation.handleChange}
                         onBlur={validation.handleBlur}
                         value={validation.values.name || ""}
-                        invalid={validation.touched.name && validation.errors.name}
+                        invalid={
+                          validation.touched.name && validation.errors.name
+                        }
                       />
                       {validation.touched.name && validation.errors.name ? (
                         <FormFeedback type="invalid">
@@ -103,7 +140,9 @@ const ContactUs = () => {
                         onChange={validation.handleChange}
                         onBlur={validation.handleBlur}
                         value={validation.values.email || ""}
-                        invalid={validation.touched.email && validation.errors.email}
+                        invalid={
+                          validation.touched.email && validation.errors.email
+                        }
                       />
                       {validation.touched.email && validation.errors.email ? (
                         <FormFeedback type="invalid">
@@ -113,19 +152,41 @@ const ContactUs = () => {
                     </Col>
                   </Row>
                   <Row>
-                    <Col lg="12 mt-2">
-                      <Input
-                        name="subject"
-                        placeholder={t("contacts.subjectPlaceholder")}
-                        type="text"
-                        onChange={validation.handleChange}
-                        onBlur={validation.handleBlur}
-                        value={validation.values.subject || ""}
-                        invalid={validation.touched.subject && validation.errors.subject}
-                      />
-                      {validation.touched.subject && validation.errors.subject ? (
+                    <Col lg="12" className="mt-2">
+                      <InputGroup>
+                        <div
+                          style={{
+                            padding: "0.375rem 0.75rem",
+                            border: "1px solid #ced4da",
+                            backgroundColor: "#e9ecef",
+                            height: 50,
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                          }}
+                        >
+                          {
+                            lang === "English" ? "+27" : "+258"
+                          }
+                        </div>
+                        <Input
+                          name="contact"
+                          placeholder={t("contacts.contactPlaceHolder")}
+                          type="number"
+                          maxLength={10}
+                          onChange={validation.handleChange}
+                          onBlur={validation.handleBlur}
+                          value={validation.values.contact || ""}
+                          invalid={
+                            validation.touched.contact &&
+                            validation.errors.contact
+                          }
+                        />
+                      </InputGroup>
+                      {validation.touched.contact &&
+                      validation.errors.contact ? (
                         <FormFeedback type="invalid">
-                          {validation.errors.subject}
+                          {validation.errors.contact}
                         </FormFeedback>
                       ) : null}
                     </Col>
@@ -138,6 +199,8 @@ const ContactUs = () => {
                           id="comments"
                           rows="4"
                           className="form-control"
+                          onChange={validation.handleChange}
+                          onBlur={validation.handleBlur}
                           placeholder={t("contacts.messagePlaceholder")}
                         ></textarea>
                       </div>

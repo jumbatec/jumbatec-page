@@ -11,13 +11,17 @@
     "transformIdeas": "Transformamos Ideias em Realidade",
     "jumbatecSolutions": "Na Jumbatec, oferecemos soluções tecnológicas personalizadas para ajudar nossos clientes a alcançar seus objetivos de negócio.",
     "ourSchoolManagementPlatform": "A Nossa plataforma de Gestão Escolar",
-    "platformDescription": "Acompanha todo o ciclo do estudante, desde o registo inicial até ao controle detalhado de propinas e integração com serviços de pagamento Mpesa, e-Mola e Entida e Referencia.",
-    "academicProgressMonitoring": "Monitorização contínua do progresso académico.",
-    "paymentReminderMessages": "Envio de mensagens de pré-aviso de pagamento.",
-    "efficientManagement": "Gestão simplificada e eficiente para instituições de ensino.",
+    "platformDescription": "A Plataforma de Gestão Estudantil é  um Sistema desenvolvido pela JUMBATEC que visa ajudar as Instituições de Ensino a dinamizar a sua gestão.",
+    "academicProgressMonitoring": "Gestão Estudantil Simplificada e Inteligente",
+    "functions":"Dentre várias funcionalidades. Pode-se destacar:",
+    "paymentReminderMessages": "Controlo de Pagamentos de Propinas e Taxas em tempo real",
+    "efficientManagement": "Integração com Pagamentos digitais.",
     "requestDemo": "Solicitar Demonstração",
     "customSoftwareDevelopment": "Desenvolvimento de Software à Medida",
     "customSoftwareDescription": "Desenvolvemos software personalizado para atender às necessidades específicas de cada cliente, utilizando as mais recentes tecnologias.",
+    "notifications":"Envio de Notificações por SMS e WhatsApp.",
+    "presence":"Controle de presenças",
+    "benefits":"Principais Benefícios:",
     "fintechSolutions": "Soluções de FINTECH",
     "fintechDescription": "Oferecemos soluções financeiras tecnológicas que ajudam empresas a inovar e melhorar seus serviços, incluindo gestão para microcréditos e integração com serviços móveis.",
     "websiteCreation": "Criação de Websites e Emails Empresariais",
@@ -43,7 +47,8 @@
       "edmilson": "Edmilson",
       "softwareDeveloper": "Desenvolvedor de Software",
       "hassiminaMbaua": "Hassimina Mbaua",
-      "financialDirector": "Diretora Financeira"
+      "financialDirector": "Diretora Financeira",
+          "braimo":"Braimo Selimane"
     },
     "pricings": {
       "sectionTitle": "Nossos Preços",
@@ -101,6 +106,7 @@
       "email": "Email:",
       "namePlaceholder": "Seu nome*",
       "emailPlaceholder": "Seu email*",
+      "contactPlaceHolder": "Seu contacto*",
       "subjectPlaceholder": "Assunto..",
       "messagePlaceholder": "Sua mensagem...",
       "submit": "Enviar Mensagem",
@@ -108,7 +114,13 @@
         "nameRequired": "Por favor, digite o seu nome",
         "emailRequired": "Por favor, digite o seu email",
         "emailInvalid": "Endereço de email inválido",
-        "subjectRequired": "Por favor, digite o assunto"
+        "subjectRequired": "Por favor, digite o assunto",
+        "contactRequired": "Por favor, digite o seu número de contacto",
+        "message":"Erro ao enviar a mensagem. Por favor, tente novamente."
+      },
+      "success": {
+        "title": "Mensagem Enviada",
+        "message": "Obrigado por entrar em contato conosco. Responderemos o mais breve possível."
       }
     },
     "footer": {
@@ -137,6 +149,9 @@
       "1":"Integração perfeita com pagamentos eletrónicos e gateways de pagamento",
       "2":"Personalizável para se adequar ao modelo e necessidades do seu negócio",
       "3":"Baseada na nuvem e totalmente escalável para o crescimento"
-    }
+    },
+    "benefitsDesc":"Dados Centralizados e armazenados de forma segura e acessíveis sempre que necessário. Lembretes aos Estudantes e Encarregados sobre as cobranças das mensalidades e taxas; Interação Entre o Estudante ou Entre os Encarregados de Educação e a Instituição através de um canal mais simplificado. O WhatsApp Acesso aos Dados onde estiver e a qualquer momento Em caso de roubo de equipamento, incêndio ou outras calamidades naturais, não há perda de informação.",
+    "target":"Público Alvo:",
+    "targetDesc":"Universidades, Institutos Superiores, Institutos de formação, Colégios, Escolas Primárias e Secundárias, Centros Infantis e Externato"
   }
 }
