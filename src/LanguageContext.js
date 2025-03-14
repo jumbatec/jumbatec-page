@@ -6,10 +6,11 @@ const LanguageContext = createContext();
 
 const LanguageProvider = ({ children }) => {
   const [lang, setLang] = useState(localStorage.getItem('lang') || 'Português');
+  const [changed, setChanged] = useState(false);
 
   useEffect(() => {
 
-    if(localStorage.getItem('lang') === null){
+    if(!changed){
          // Get the user's time zone
      const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
@@ -31,7 +32,7 @@ const LanguageProvider = ({ children }) => {
      if (portugueseSpeakingTimeZones.includes(userTimeZone)) {
        setLang("Português");
      } else {
-      setLang("Enslish");
+      setLang("English");
      }
 
      localStorage.setItem('lang', lang);
@@ -44,6 +45,7 @@ const LanguageProvider = ({ children }) => {
  
   const changeLanguage = (newLang) => {
     setLang(newLang);
+    setChanged(true);
   };
 
   return (
