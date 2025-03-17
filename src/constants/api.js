@@ -1,1 +1,1 @@
-export const baseUrl = "https://api.judiaombaumedia.com";
+export const baseUrl = "http://localhost:3333/api/client";

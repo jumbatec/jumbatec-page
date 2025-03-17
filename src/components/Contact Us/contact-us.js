@@ -23,6 +23,7 @@ const ContactUs = () => {
   const [error, setError] = React.useState(null);
   const [success, setSuccess] = React.useState(null);
   const { lang } = useContext(LanguageContext);
+  const [loading, setLoading] = React.useState(false);
 
   const validation = useFormik({
     enableReinitialize: true,
@@ -40,8 +41,15 @@ const ContactUs = () => {
       contact: Yup.string().required(t("contacts.errors.contactRequired")),
     }),
     onSubmit: (values) => {
+      setLoading(true);
       axios
-        .post(baseUrl + "/contact", values)
+        .post(baseUrl + "/lead", {
+          description: values.comments,
+          email: values.email,
+          name: values.name,
+          contact: values.contact,
+          app:'Jumbatec Website',
+        })
         .then((response) => {
           console.log(response);
           setError(null);
@@ -52,7 +60,9 @@ const ContactUs = () => {
           console.log(error);
           setError(t("contacts.errors.message"));
           setSuccess(null);
-        });
+        }).finally(()=>{
+          setLoading(false);
+        })
     },
   });
 
@@ -208,9 +218,17 @@ const ContactUs = () => {
                   </Row>
                   <Row>
                     <Col lg="12" className="text-end">
-                      <Button className="submitBnt btn btn-primary">
+                      {
+                        loading ? (
+                          <Button className="submitBnt btn btn-primary" disabled>
+                        {t("contacts.submitting")}
+                      </Button>
+                        ):(
+                          <Button className="submitBnt btn btn-primary">
                         {t("contacts.submit")}
                       </Button>
+                        )
+                      }
                       <div id="simple-msg"></div>
                     </Col>
                   </Row>

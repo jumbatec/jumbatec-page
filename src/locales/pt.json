@@ -11,7 +11,7 @@
     "transformIdeas": "Transformamos Ideias em Realidade",
     "jumbatecSolutions": "Na Jumbatec, oferecemos soluções tecnológicas personalizadas para ajudar nossos clientes a alcançar seus objetivos de negócio.",
     "ourSchoolManagementPlatform": "A Nossa plataforma de Gestão Escolar",
-    "platformDescription": "A Plataforma de Gestão Estudantil é  um Sistema desenvolvido pela JUMBATEC que visa ajudar as Instituições de Ensino a dinamizar a sua gestão.",
+    "platformDescription": "O Sistema de Gestão Estudantil é um Sistema desenvolvido pela JUMBATEC que visa ajudar as Instituições de Ensino a dinamizar a sua gestão.",
     "academicProgressMonitoring": "Gestão Estudantil Simplificada e Inteligente",
     "functions":"Dentre várias funcionalidades. Pode-se destacar:",
     "paymentReminderMessages": "Controlo de Pagamentos de Propinas e Taxas em tempo real",
@@ -38,14 +38,14 @@
     "responsiveWebsitesDescription": "Desenvolvemos websites responsivos e profissionais para o seu negócio, além de configurar emails empresariais para comunicação eficiente.",
     "viewPlansAndPricing": "Pedir Cotação",
     "aboutUsTitle": "Conheça a Equipe JUMBATEC",
-    "aboutUsDescription": "A JUMBATEC orgulha-se de contar com uma equipe qualificada e dedicada, liderada por profissionais experientes como Judiao Mbaua, Eneth Vanessa, Edmilson e Hassimina Mbaua.",
+    "aboutUsDescription": "A JUMBATEC orgulha-se de contar com uma equipe qualificada e dedicada, liderada por profissionais experientes como Judiao Mbaua, Eneth Vanessa, Hassimina Mbaua e Braimo.",
     "teamMembers": {
       "judiaoMbaua": "Judiao Mbaua",
       "executiveDirector": "Diretor Executivo",
       "enethVanessa": "Eneth Vanessa",
       "marketingAndSalesDirector": "Diretora de Marketing e Vendas",
       "edmilson": "Edmilson",
-      "softwareDeveloper": "Desenvolvedor de Software",
+      "softwareDeveloper": "Desenvolvedor de Software Senior",
       "hassiminaMbaua": "Hassimina Mbaua",
       "financialDirector": "Diretora Financeira",
           "braimo":"Braimo Selimane"
@@ -152,6 +152,7 @@
     },
     "benefitsDesc":"Dados Centralizados e armazenados de forma segura e acessíveis sempre que necessário. Lembretes aos Estudantes e Encarregados sobre as cobranças das mensalidades e taxas; Interação Entre o Estudante ou Entre os Encarregados de Educação e a Instituição através de um canal mais simplificado. O WhatsApp Acesso aos Dados onde estiver e a qualquer momento Em caso de roubo de equipamento, incêndio ou outras calamidades naturais, não há perda de informação.",
     "target":"Público Alvo:",
-    "targetDesc":"Universidades, Institutos Superiores, Institutos de formação, Colégios, Escolas Primárias e Secundárias, Centros Infantis e Externato"
+    "targetDesc":"Universidades, Institutos Superiores, Institutos de formação, Colégios, Escolas Primárias e Secundárias, Centros Infantis e Externato",
+    "submitting":"Enviando..."
   }
 }
