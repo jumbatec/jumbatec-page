@@ -1,1 +1,1 @@
-export const baseUrl = "http://localhost:3333/api/client";
+export const baseUrl = "https://fs952vsnm3.execute-api.us-east-1.amazonaws.com/dev/api";
