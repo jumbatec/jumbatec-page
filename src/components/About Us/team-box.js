@@ -12,6 +12,10 @@ class TeamBox extends Component {
                 <img
                   alt=""
                   src={this.props.image}
+                  style={{
+                    height:300,
+                    objectFit:'cover'
+                  }}
                   className="img-fluid rounded"
                 />
               </div>

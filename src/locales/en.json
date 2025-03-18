@@ -11,10 +11,10 @@
     "transformIdeas": "We Turn Ideas Into Reality",
     "jumbatecSolutions": "At Jumbatec, we provide customized technological solutions to help our clients achieve their business goals.",
     "ourSchoolManagementPlatform": "Our School Management Platform",
-    "platformDescription": "Tracks the entire student cycle, from initial registration to detailed fee control and integration with mobile payment services like Mpesa.",
-    "academicProgressMonitoring": "Continuous monitoring of academic progress.",
-    "paymentReminderMessages": "Sending pre-payment reminder messages.",
-    "efficientManagement": "Simplified and efficient management for educational institutions.",
+    "platformDescription": "The Student Management System is a system developed by JUMBATEC that aims to help educational institutions streamline their management.",
+    "academicProgressMonitoring": "Simplified and Intelligent Student Management",
+    "paymentReminderMessages": "Real-time Tuition and Fee Payment Control",
+    "efficientManagement": "Integration with Digital Payments",
     "requestDemo": "Request a Demo",
     "customSoftwareDevelopment": "Custom Software Development",
     "customSoftwareDescription": "We develop customized software to meet the specific needs of each client using the latest technologies.",
@@ -41,9 +41,10 @@
       "enethVanessa": "Eneth Vanessa",
       "marketingAndSalesDirector": "Marketing and Sales Director",
       "edmilson": "Edmilson",
-      "softwareDeveloper": "Software Developer",
+      "softwareDeveloper": "Senior Software Developer",
       "hassiminaMbaua": "Hassimina Mbaua",
-      "financialDirector": "Financial Director"
+      "financialDirector": "Financial Director",
+      "braimo":"Braimo Selimane"
     },
     "pricings": {
       "sectionTitle": "Our Prices",
@@ -100,6 +101,7 @@
       "contact": "Contact:",
       "email": "Email:",
       "namePlaceholder": "Your name*",
+      "contactPlaceHolder": "Your contact*",
       "emailPlaceholder": "Your email*",
       "subjectPlaceholder": "Subject..",
       "messagePlaceholder": "Your message...",
@@ -108,7 +110,13 @@
         "nameRequired": "Please enter your name",
         "emailRequired": "Please enter your email",
         "emailInvalid": "Invalid email address",
-        "subjectRequired": "Please enter the subject"
+        "subjectRequired": "Please enter the subject",
+        "contactRequired": "Please enter your contact number",
+        "message":"Error sending message. Please try again later."
+      },
+      "success":{
+        "title":"Message Sent",
+        "message":"Your message has been sent successfully. We will get back to you shortly."
       }
     },
     "footer": {
@@ -137,6 +145,14 @@
       "1":"Seamless mobile money and payment gateway integration",
       "2":"Customizable to fit your business model and needs",
       "3":"Cloud-based and fully scalable for growth"
-    }
+    },
+      "functions": "Among various functionalities, the following stand out:",
+      "notifications": "Sending Notifications via SMS and WhatsApp",
+      "presence": "Attendance Control",
+      "benefits": "Main Benefits:",
+      "benefitsDesc": "Centralized data stored securely and accessible whenever needed. Reminders to students and guardians about tuition and fee payments; Interaction between the student or guardians and the institution through a simplified channel like WhatsApp. Access data anywhere and anytime. In case of equipment theft, fire, or other natural calamities, there is no loss of information.",
+      "target":"Target Audience:",
+      "targetDesc": "Universities, Higher Institutes, Training Institutes, Colleges, Primary and Secondary Schools, Childcare Centers, and Boarding Schools",
+      "submitting":"Submitting..."
   }
 }
