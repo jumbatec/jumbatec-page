@@ -21,13 +21,7 @@ class AboutUs extends Component {
         post: t("teamMembers.executiveDirector"), // Use translation key for post
       },
       {
-        id: 2,
-        name: t("teamMembers.enethVanessa"), // Use translation key for name
-        image: "assets/images/team/eneth.jpg",
-        post: t("teamMembers.marketingAndSalesDirector"), // Use translation key for post
-      },
-      {
-        id: 4,
+        id: 3,
         name: t("teamMembers.hassiminaMbaua"), // Use translation key for name
         image: "assets/images/team/hassimina.jpg",
         post: t("teamMembers.financialDirector"), // Use translation key for post
