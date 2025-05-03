@@ -96,7 +96,7 @@ const ContactUs = () => {
                   <span className="h5">{t("contacts.contact")}</span>
                   <br />
                   <span className="text-muted d-block mt-2">
-                    +258 87 237 3747 / 84 450 8227 / 87 391 1401
+                    +258 87 237 3747 / 84 11 53 433 / 87 391 1401
                   </span>
                 </p>
                 <p className="mt-4">
