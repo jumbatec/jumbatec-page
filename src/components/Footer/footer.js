@@ -5,6 +5,7 @@ import { withTranslation } from "react-i18next"; // Import withTranslation for i
 
 // Importar links do rodapé
 import FooterLinks from "./footer-links";
+import "./footer-modern.css";
 
 class Footer extends Component {
   constructor(props) {

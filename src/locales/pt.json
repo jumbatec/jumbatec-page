@@ -37,8 +37,8 @@
     "createYourDreamWebsite": "Crie o seu Website dos sonhos hoje",
     "responsiveWebsitesDescription": "Desenvolvemos websites responsivos e profissionais para o seu negócio, além de configurar emails empresariais para comunicação eficiente.",
     "viewPlansAndPricing": "Pedir Cotação",
-    "aboutUsTitle": "Conheça a Equipe JUMBATEC",
-    "aboutUsDescription": "A JUMBATEC orgulha-se de contar com uma equipe qualificada e dedicada, liderada por profissionais experientes como Judiao Mbaua, Eneth Vanessa, Hassimina Mbaua e Braimo.",
+    "aboutUsTitle": "Sobre a JUMBATEC",
+    "aboutUsDescription": "A JUMBATEC é uma empresa líder em soluções tecnológicas inovadoras, dedicada a transformar negócios através da tecnologia. Com uma equipa qualificada e experiente, desenvolvemos sistemas de gestão modernos e eficientes que atendem às necessidades específicas de cada cliente, sempre com foco em qualidade, inovação e excelência no atendimento.",
     "teamMembers": {
       "judiaoMbaua": "Judiao Mbaua",
       "executiveDirector": "Diretor Executivo",
@@ -103,6 +103,8 @@
       "officeAddress": "Endereço do Escritório:",
       "workingHours": "Horário de Funcionamento:",
       "contact": "Contacto:",
+      "whatsapp": "WhatsApp:",
+      "whatsappButton": "Falar no WhatsApp",
       "email": "Email:",
       "namePlaceholder": "Seu nome*",
       "emailPlaceholder": "Seu email*",
@@ -153,6 +155,68 @@
     "benefitsDesc":"Dados Centralizados e armazenados de forma segura e acessíveis sempre que necessário. Lembretes aos Estudantes e Encarregados sobre as cobranças das mensalidades e taxas; Interação Entre o Estudante ou Entre os Encarregados de Educação e a Instituição através de um canal mais simplificado. O WhatsApp Acesso aos Dados onde estiver e a qualquer momento Em caso de roubo de equipamento, incêndio ou outras calamidades naturais, não há perda de informação.",
     "target":"Público Alvo:",
     "targetDesc":"Universidades, Institutos Superiores, Institutos de formação, Colégios, Escolas Primárias e Secundárias, Centros Infantis e Externato",
-    "submitting":"Enviando..."
+    "submitting":"Enviando...",
+    "platforms": {
+      "title": "Nossas Plataformas",
+      "description": "Conheça as nossas soluções tecnológicas inovadoras, desenvolvidas para transformar a gestão do seu negócio com eficiência, segurança e modernidade.",
+      "keyFeatures": "Principais Funcionalidades:",
+      "learnMore": "Saiba Mais",
+      "dokodela": {
+        "tagline": "DOKODELA — Sistema de Gestão de Clínicas",
+        "description": "A solução digital que moderniza a gestão da sua clínica — prática, segura e eficiente.",
+        "feature1": "Gestão de Pacientes e Seguradoras",
+        "feature2": "Diário de Faturação e Emissão de Mapas de Cobrança",
+        "feature3": "Controlo Automático de Dívidas das Seguradoras",
+        "feature4": "Cálculo Automático de Salários dos Médicos",
+        "feature5": "Gestão de Stock e Armazém",
+        "feature6": "Gestão de Serviços Clínicos",
+        "feature7": "Agendamentos de Consultas",
+        "feature8": "Relatórios e Dashboards em Tempo Real"
+      },
+      "sge": {
+        "tagline": "SGE-PRO — Sistema de Gestão Estudantil",
+        "description": "O Sistema de Gestão Estudantil é desenvolvido pela JUMBATEC para ajudar as Instituições de Ensino a dinamizar a sua gestão.",
+        "feature1": "Gestão Estudantil Simplificada e Inteligente",
+        "feature2": "Controlo de Pagamentos de Propinas e Taxas em tempo real",
+        "feature3": "Integração com Pagamentos digitais",
+        "feature4": "Integração com WhatsApp",
+        "feature5": "Envio de Notificações por SMS e WhatsApp",
+        "feature6": "Controle de Presenças"
+      },
+      "controlo360": {
+        "tagline": "Controlo 360 — Plataforma de Gestão Empresarial Completa",
+        "description": "Uma Plataforma de Gestão Empresarial completa para uma Empresa Moderna.",
+        "feature1": "Gestão de Stock e Vendas",
+        "feature2": "Gestão de Recursos Humanos",
+        "feature3": "Gestão de Património",
+        "feature4": "Gestão Documental",
+        "feature5": "Contabilidade",
+        "feature6": "Gestão de Projectos",
+        "feature7": "E muito Mais"
+      }
+    },
+    "videoTestimonials": {
+      "title": "Testemunhos dos Nossos Clientes",
+      "description": "Veja o que nossos clientes têm a dizer sobre as nossas soluções e como transformamos os seus negócios.",
+      "video1Title": "Depoimento Colegio Bom Futuro",
+      "video1Description": "Conheça a experiência do Colegio Bom Futuro com as nossas soluções de gestão educacional.",
+      "video2Title": "Depoimento ISPOTEC",
+      "video2Description": "Descubra como o ISPOTEC beneficiou das nossas plataformas tecnológicas.",
+      "ctaText": "Quer saber mais sobre como podemos ajudar o seu negócio?",
+      "ctaButton": "Entre em Contacto"
+    },
+    "ourClients": {
+      "title": "Nossos Clientes",
+      "description": "Temos o privilégio de trabalhar com instituições de renome que confiam nas nossas soluções tecnológicas para impulsionar os seus negócios.",
+      "education": "Educação",
+      "health": "Saúde",
+      "restaurant": "Restauração",
+      "stat1": "Clientes Satisfeitos",
+      "stat2": "Taxa de Satisfação",
+      "stat3": "Anos de Experiência",
+      "ctaTitle": "Junte-se aos Nossos Clientes de Sucesso",
+      "ctaDescription": "Faça parte das empresas que já transformaram os seus negócios com a JUMBATEC.",
+      "ctaButton": "Solicitar Demonstração"
+    }
   }
 }

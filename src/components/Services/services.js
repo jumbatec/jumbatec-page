@@ -1,12 +1,10 @@
 import React, { Component } from "react";
-import { Container, Row } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 //Import Section Title
 import SectionTitle from "../common/section-title";
-
-//Import Service Box
-import ServiceBox from "./service-box";
 import { withTranslation } from "react-i18next";
+import "./services-modern.css";
 
 class Services extends Component {
   state = {
@@ -50,7 +48,7 @@ class Services extends Component {
   
     return (
       <React.Fragment>
-        <section className="section bg-light" id="services">
+        <section className="section services-section" id="services">
           <Container>
             {/* Render section title */}
             <SectionTitle
@@ -61,12 +59,15 @@ class Services extends Component {
             <Row className="mt-5">
               {/* render service box */}
               {services.map((service, key) => (
-                <ServiceBox
-                  key={key}
-                  title={service.title}
-                  icon={service.icon}
-                  description={service.description}
-                />
+                <Col lg={4} md={6} className="mb-4" key={key}>
+                  <div className="service-box-modern">
+                    <div className="service-icon-wrapper">
+                      <i className={`${service.icon} service-icon`}></i>
+                    </div>
+                    <h4 className="service-title">{service.title}</h4>
+                    <p className="service-description">{service.description}</p>
+                  </div>
+                </Col>
               ))}
             </Row>
           </Container>

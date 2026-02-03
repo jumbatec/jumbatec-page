@@ -1,27 +1,28 @@
 import React, { Component } from "react";
 import { withTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
+import "../common/modern-sections.css";
 
 class WebsiteDescription extends Component {
   render() {
     const { t } = this.props;
     return (
       <React.Fragment>
-        <section className="section bg-web-desc">
-          <div className="bg-overlay"></div>
+        <section className="section website-description-modern">
           <Container>
             <Row>
               <Col lg="12" className="text-center">
-                <h2 className="text-white">{t("createYourDreamWebsite")}</h2>
-                <p className="pt-3 home-desc mx-auto">
+                <h2>{t("createYourDreamWebsite")}</h2>
+                <p className="pt-3">
                   {t("responsiveWebsitesDescription")}
                 </p>
                 <a
-                  href="#contact"
+                  href="https://wa.me/258855898000"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-light mt-5 waves-effect waves-light"
                 >
-                  {t("viewPlansAndPricing")}
+                  {t("viewPlansAndPricing")} <i className="mdi mdi-arrow-right ms-2"></i>
                 </a>
               </Col>
             </Row>

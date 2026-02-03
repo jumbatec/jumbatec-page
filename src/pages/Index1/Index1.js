@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
 import NavbarPage from "../../components/Navbar/NavbarPage";
 import Section from "./section";
-import Clients from '../../components/Clients/clients';
-import Features from '../../components/Features/features';
 import Services from '../../components/Services/services';
 import WebsiteDescription from '../../components/Website Description/website-description';
 import AboutUs from '../../components/About Us/about-us';
-import Pricing from '../../components/Pricing/pricing';
-import Testimonials from '../../components/Testimonials/testimonials';
+import Platforms from '../../components/Platforms/platforms';
+import VideoTestimonials from '../../components/Testimonials/video-testimonials';
+import OurClients from '../../components/Clients/our-clients';
 import GetStarted from '../../components/Get Started/get-started';
 import Blog from '../../components/Blog/blog';
 import ContactUs from '../../components/Contact Us/contact-us';
 import Footer from '../../components/Footer/footer';
-import Feature2 from '../../components/Features/feature2';
+import FloatingWhatsApp from '../../components/common/FloatingWhatsApp';
 
 class Index1 extends Component {
     constructor(props) {
@@ -32,12 +31,8 @@ class Index1 extends Component {
                 {/* Importing Section */}
                 <Section />
 
-                {/* Importing Client */}
-                {/* <Clients /> */}
-
-                {/* Importing Features */}
-                <Features />
-                <Feature2/>
+                {/* Importing Platforms */}
+                <Platforms />
 
                 {/* Importing Services */}
                 <Services />
@@ -47,6 +42,12 @@ class Index1 extends Component {
 
                 {/* Importing About Us */}
                 <AboutUs />
+
+                {/* Importing Video Testimonials */}
+                <VideoTestimonials />
+
+                {/* Importing Our Clients */}
+                <OurClients />
 
                 {/* Importing Pricing */}
                 {/* <Pricing /> */}
@@ -65,6 +66,9 @@ class Index1 extends Component {
 
                 {/* Importing Get Footer */}
                 <Footer />
+
+                {/* Floating WhatsApp Button */}
+                <FloatingWhatsApp />
 
             </React.Fragment>
         );

@@ -5,11 +5,10 @@ import { Container, Row, Col } from "reactstrap";
 class FooterLinks extends Component {
   state = {
     socials: [
-      { icon: "mdi mdi-facebook", link: "#" },
-      { icon: "mdi mdi-twitter", link: "#" },
-      { icon: "mdi mdi-linkedin", link: "#" },
-      { icon: "mdi mdi-google-plus", link: "#" },
-      { icon: "mdi mdi-microsoft-xbox", link: "#" },
+      { icon: "mdi mdi-facebook", link: "https://www.facebook.com/profile.php?id=61563079029492", className: "facebook" },
+      { icon: "mdi mdi-linkedin", link: "https://www.linkedin.com/company/jumbateclda/", className: "linkedin" },
+      { icon: "mdi mdi-instagram", link: "https://www.instagram.com/jumbatec", className: "instagram" },
+      { icon: "mdi mdi-whatsapp", link: "https://wa.me/258855898000", className: "whatsapp" },
     ],
   };
   render() {
@@ -28,9 +27,9 @@ class FooterLinks extends Component {
                   <ul className="list-inline d-flex flex-wrap social m-0">
                     {this.state.socials.map((social, key) => (
                       <li className="list-inline-item" key={key}>
-                        <Link to={social.link} className="social-icon">
+                        <a href={social.link} target="_blank" rel="noopener noreferrer" className={`social-icon ${social.className}`}>
                           <i className={social.icon}></i>
-                        </Link>
+                        </a>
                       </li>
                     ))}
                   </ul>

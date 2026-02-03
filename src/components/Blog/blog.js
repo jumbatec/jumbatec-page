@@ -1,12 +1,10 @@
 import React, { Component } from "react";
-import { Container, Row } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 //Import Section Title
 import SectionTitle from "../common/section-title";
-
-//Import Blog Box
-import BlogBox from "./blog-box";
 import { withTranslation } from "react-i18next";
+import "../common/modern-sections.css";
 
 class Blog extends Component {
   state = {
@@ -44,7 +42,7 @@ class Blog extends Component {
   
     return (
       <React.Fragment>
-        <section className="section bg-light active" id="blog">
+        <section className="section blog-section-modern" id="blog">
         <Container>
           {/* Render section title */}
           <SectionTitle
@@ -52,10 +50,26 @@ class Blog extends Component {
             description={t('blog_description')}
           />
 
-          <Row className="mt-4">
+          <Row className="mt-5">
             {/* Render blog boxes */}
             {blogs.map((blog, key) => (
-              <BlogBox key={key} blog={blog} />
+              <Col lg={4} md={6} className="mb-4" key={key}>
+                <div className="blog-card-modern">
+                  <div className="blog-image-wrapper">
+                    <img src={blog.image} alt={blog.title} />
+                    <div className="blog-badge">{blog.topic}</div>
+                  </div>
+                  <div className="blog-content-wrapper">
+                    <h4 className="blog-title-modern">{blog.title}</h4>
+                    <p className="blog-description-modern">{blog.description}</p>
+                    {blog.link && (
+                      <a href={blog.link} className="blog-read-more">
+                        Ler mais <i className="mdi mdi-arrow-right"></i>
+                      </a>
+                    )}
+                  </div>
+                </div>
+              </Col>
             ))}
           </Row>
         </Container>

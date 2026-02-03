@@ -18,6 +18,7 @@ import { FaLanguage } from "react-icons/fa"; // Using react-icons for the langua
 
 //Import Stickey Header
 import StickyHeader from "react-sticky-header";
+import "./navbar-modern.css";
 import "../../../node_modules/react-sticky-header/styles.css";
 import { useTranslation, withTranslation } from "react-i18next";
 import { LanguageContext } from "../../LanguageContext";
@@ -62,7 +63,7 @@ class Navbar_Page extends Component {
     this.state = {
       navItems: [
         { id: 1, idnm: "home", navheading: "Home" },
-        { id: 2, idnm: "features", navheading: "Plataformas" },
+        { id: 2, idnm: "platforms", navheading: "Plataformas" },
         { id: 3, idnm: "services", navheading: "Serviços" },
         { id: 4, idnm: "about", navheading: "Sobre Nós" },
         { id: 5, idnm: "pricing", navheading: "Preços" },
@@ -83,7 +84,7 @@ class Navbar_Page extends Component {
     const { t } = this.props; 
     const navItems = [
       { id: 1, idnm: "home", navheading: t("home") },
-      { id: 2, idnm: "features", navheading: t("features") },
+      { id: 2, idnm: "platforms", navheading: t("features") },
       { id: 3, idnm: "services", navheading: t("services") },
       { id: 4, idnm: "about", navheading: t("about") },
       // { id: 5, idnm: "pricing", navheading: t("pricing") },

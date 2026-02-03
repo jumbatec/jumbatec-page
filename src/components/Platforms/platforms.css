@@ -1,0 +1,306 @@
+/* Nossas Plataformas - Modern Design */
+
+.platforms-section {
+  padding: 80px 0;
+  background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.platforms-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #667eea, transparent);
+}
+
+.platforms-title h2 {
+  font-size: 2.5rem;
+  color: #272a33;
+  font-weight: 700;
+  position: relative;
+}
+
+.platforms-title p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.title-border {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  border-radius: 2px;
+}
+
+/* Platform Row */
+.platform-row {
+  margin-top: 60px;
+  position: relative;
+}
+
+.platform-row::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #e0e0e0, transparent);
+}
+
+.platform-row:last-child::after {
+  display: none;
+}
+
+/* Platform Image */
+.platform-image-col {
+  position: relative;
+  padding: 30px;
+}
+
+.platform-image-wrapper {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+}
+
+.platform-image-wrapper:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.15);
+}
+
+.platform-gradient-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.1;
+  z-index: 0;
+}
+
+.platform-image {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  transition: all 0.4s ease;
+}
+
+.platform-image-wrapper:hover .platform-image {
+  transform: scale(1.05);
+}
+
+/* Platform Content */
+.platform-content-col {
+  padding: 30px;
+}
+
+.platform-content {
+  padding: 20px 0;
+}
+
+.platform-badge .badge {
+  font-size: 0.85rem;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.platform-tagline {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #272a33;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.platform-content > p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #6c757d;
+}
+
+/* Features */
+.platform-features {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  border-left: 4px solid #667eea;
+}
+
+.features-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #272a33;
+  margin-bottom: 20px;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-item {
+  padding: 10px 0;
+  font-size: 0.95rem;
+  color: #495057;
+  line-height: 1.6;
+  display: flex;
+  align-items: flex-start;
+}
+
+.feature-item i {
+  font-size: 1.2rem;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.feature-item:not(:last-child) {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Button */
+.btn-platform {
+  padding: 12px 35px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btn-platform:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(102, 126, 234, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .platforms-section {
+    padding: 60px 0;
+  }
+
+  .platforms-title h2 {
+    font-size: 2rem;
+  }
+
+  .platform-row {
+    margin-top: 40px;
+  }
+
+  .platform-row.flex-row-reverse {
+    flex-direction: column !important;
+  }
+
+  .platform-image-col,
+  .platform-content-col {
+    padding: 20px 15px;
+  }
+
+  .platform-tagline {
+    font-size: 1.5rem;
+  }
+
+  .platform-features {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .platforms-title h2 {
+    font-size: 1.75rem;
+  }
+
+  .platforms-title p {
+    font-size: 1rem;
+  }
+
+  .platform-tagline {
+    font-size: 1.3rem;
+  }
+
+  .platform-badge .badge {
+    font-size: 0.75rem;
+    padding: 6px 15px;
+  }
+
+  .feature-item {
+    font-size: 0.9rem;
+  }
+
+  .btn-platform {
+    padding: 10px 25px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.platform-row {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.platform-row:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.platform-row:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.platform-row:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+/* Dark Mode Support */
+[data-bs-theme="dark"] .platforms-section {
+  background: linear-gradient(180deg, #1a1d26 0%, #272a33 100%);
+}
+
+[data-bs-theme="dark"] .platforms-title h2,
+[data-bs-theme="dark"] .platform-tagline,
+[data-bs-theme="dark"] .features-title {
+  color: #ffffff;
+}
+
+[data-bs-theme="dark"] .platform-features {
+  background: #2e313a;
+  border-left-color: #667eea;
+}
+
+[data-bs-theme="dark"] .feature-item {
+  color: #b8bdc7;
+}
+
+[data-bs-theme="dark"] .feature-item:not(:last-child) {
+  border-bottom-color: #3a3d47;
+}
+
+[data-bs-theme="dark"] .platform-image-wrapper {
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}

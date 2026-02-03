@@ -33,8 +33,8 @@
     "createYourDreamWebsite": "Create Your Dream Website Today",
     "responsiveWebsitesDescription": "We develop responsive and professional websites for your business, as well as set up corporate emails for efficient communication.",
     "viewPlansAndPricing": "Ask for a Quote",
-    "aboutUsTitle": "Meet the JUMBATEC Team",
-    "aboutUsDescription": "JUMBATEC is proud to have a qualified and dedicated team led by experienced professionals like Judiao Mbaua, Eneth Vanessa, Edmilson, and Hassimina Mbaua.",
+    "aboutUsTitle": "About JUMBATEC",
+    "aboutUsDescription": "JUMBATEC is a leading company in innovative technological solutions, dedicated to transforming businesses through technology. With a qualified and experienced team, we develop modern and efficient management systems that meet the specific needs of each client, always focusing on quality, innovation, and excellence in service.",
     "teamMembers": {
       "judiaoMbaua": "Judiao Mbaua",
       "executiveDirector": "Executive Director",
@@ -99,6 +99,8 @@
       "officeAddress": "Office Address:",
       "workingHours": "Working Hours:",
       "contact": "Contact:",
+      "whatsapp": "WhatsApp:",
+      "whatsappButton": "Chat on WhatsApp",
       "email": "Email:",
       "namePlaceholder": "Your name*",
       "contactPlaceHolder": "Your contact*",
@@ -153,6 +155,68 @@
       "benefitsDesc": "Centralized data stored securely and accessible whenever needed. Reminders to students and guardians about tuition and fee payments; Interaction between the student or guardians and the institution through a simplified channel like WhatsApp. Access data anywhere and anytime. In case of equipment theft, fire, or other natural calamities, there is no loss of information.",
       "target":"Target Audience:",
       "targetDesc": "Universities, Higher Institutes, Training Institutes, Colleges, Primary and Secondary Schools, Childcare Centers, and Boarding Schools",
-      "submitting":"Submitting..."
+      "submitting":"Submitting...",
+      "platforms": {
+        "title": "Our Platforms",
+        "description": "Discover our innovative technological solutions, developed to transform your business management with efficiency, security, and modernity.",
+        "keyFeatures": "Key Features:",
+        "learnMore": "Learn More",
+        "dokodela": {
+          "tagline": "DOKODELA — Clinic Management System",
+          "description": "The digital solution that modernizes your clinic management — practical, secure, and efficient.",
+          "feature1": "Patient and Insurance Management",
+          "feature2": "Daily Billing and Collection Map Issuance",
+          "feature3": "Automatic Insurance Debt Control",
+          "feature4": "Automatic Calculation of Doctors' Salaries",
+          "feature5": "Stock and Warehouse Management",
+          "feature6": "Clinical Services Management",
+          "feature7": "Appointment Scheduling",
+          "feature8": "Real-Time Reports and Dashboards"
+        },
+        "sge": {
+          "tagline": "SGE-PRO — Student Management System",
+          "description": "The Student Management System is developed by JUMBATEC to help educational institutions streamline their management.",
+          "feature1": "Simplified and Intelligent Student Management",
+          "feature2": "Real-time Tuition and Fee Payment Control",
+          "feature3": "Integration with Digital Payments",
+          "feature4": "WhatsApp Integration",
+          "feature5": "Sending Notifications via SMS and WhatsApp",
+          "feature6": "Attendance Control"
+        },
+        "controlo360": {
+          "tagline": "Controlo 360 — Complete Business Management Platform",
+          "description": "A complete Business Management Platform for a Modern Company.",
+          "feature1": "Stock and Sales Management",
+          "feature2": "Human Resources Management",
+          "feature3": "Asset Management",
+          "feature4": "Document Management",
+          "feature5": "Accounting",
+          "feature6": "Project Management",
+          "feature7": "And Much More"
+        }
+      },
+      "videoTestimonials": {
+        "title": "Client Testimonials",
+        "description": "See what our clients have to say about our solutions and how we've transformed their businesses.",
+        "video1Title": "ISPOTEC Testimonial",
+        "video1Description": "Learn about ISPOTEC's experience with our educational management solutions.",
+        "video2Title": "ISPOTEC Testimonial",
+        "video2Description": "Discover how ISPOTEC benefited from our technological platforms.",
+        "ctaText": "Want to know more about how we can help your business?",
+        "ctaButton": "Contact Us"
+      },
+      "ourClients": {
+        "title": "Our Clients",
+        "description": "We have the privilege of working with renowned institutions that trust our technological solutions to drive their businesses forward.",
+        "education": "Education",
+        "health": "Health",
+        "restaurant": "Restaurant",
+        "stat1": "Satisfied Clients",
+        "stat2": "Satisfaction Rate",
+        "stat3": "Years of Experience",
+        "ctaTitle": "Join Our Successful Clients",
+        "ctaDescription": "Be part of the companies that have already transformed their businesses with JUMBATEC.",
+        "ctaButton": "Request Demo"
+      }
   }
 }

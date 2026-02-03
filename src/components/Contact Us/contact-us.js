@@ -8,15 +8,14 @@ import {
   Form,
   Input,
   InputGroup,
-  InputGroupText,
 } from "reactstrap";
 import { useTranslation } from "react-i18next"; // Import useTranslation hook
 import * as Yup from "yup";
 import { useFormik } from "formik";
-import SectionTitle from "../common/section-title";
 import axios from "axios";
 import { baseUrl } from "../../constants/api";
 import { LanguageContext } from "../../LanguageContext";
+import "../Services/services-modern.css";
 
 const ContactUs = () => {
   const { t } = useTranslation(); // Initialize translation
@@ -68,48 +67,65 @@ const ContactUs = () => {
 
   return (
     <React.Fragment>
-      <section className="section" id="contact">
+      <section className="section contact-section-modern" id="contact">
         <Container>
-          <SectionTitle
-            title={t("contacts.title")}
-            description={t("contacts.description")}
-          />
-
           <Row>
+            <Col lg={{ size: 8, offset: 2 }}>
+              <div className="text-center mb-5">
+                <h2 className="font-weight-bold mb-3 text-white">
+                  {t("contacts.title")}
+                </h2>
+                <p className="text-white" style={{ fontSize: "1.1rem" }}>
+                  {t("contacts.description")}
+                </p>
+                <div className="title-border mx-auto mt-4" style={{ background: "#ffffff", width: "80px", height: "4px", borderRadius: "2px" }}></div>
+              </div>
+            </Col>
+          </Row>
+
+          <Row className="mt-5">
             <Col lg="4">
-              <div className="mt-4 pt-4">
-                <p className="mt-4">
-                  <span className="h5">{t("contacts.officeAddress")}</span>
-                  <br />
-                  <span className="text-muted d-block mt-2">
+              <div className="contact-info-card">
+                <div className="contact-info-item">
+                  <h5>{t("contacts.officeAddress")}</h5>
+                  <span className="text-muted d-block">
                     Avenida Zedequias Mangalhela, Nr 520 9º Andar, Maputo
                   </span>
-                </p>
-                <p className="mt-4">
-                  <span className="h5">{t("contacts.workingHours")}</span>
-                  <br />
-                  <span className="text-muted d-block mt-2">
+                </div>
+                <div className="contact-info-item">
+                  <h5>{t("contacts.workingHours")}</h5>
+                  <span className="text-muted d-block">
                     Segunda a Sexta-feira, das 8h às 17h
                   </span>
-                </p>
-                <p className="mt-4">
-                  <span className="h5">{t("contacts.contact")}</span>
-                  <br />
-                  <span className="text-muted d-block mt-2">
-                    +258 87 237 3747 / 84 11 53 433 / 87 391 1401
+                </div>
+                <div className="contact-info-item">
+                  <h5>{t("contacts.contact")}</h5>
+                  <span className="text-muted d-block">
+                    +258 85 5898 000 / 87 237 3747
                   </span>
-                </p>
-                <p className="mt-4">
-                  <span className="h5">{t("contacts.email")}</span>
-                  <br />
-                  <span className="text-muted d-block mt-2">
+                </div>
+                <div className="contact-info-item">
+                  <h5>{t("contacts.whatsapp")}</h5>
+                  <a 
+                    href="https://wa.me/258855898000" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="whatsapp-btn d-inline-flex align-items-center"
+                  >
+                    <i className="mdi mdi-whatsapp" style={{ fontSize: "20px" }}></i>
+                    {t("contacts.whatsappButton")}
+                  </a>
+                </div>
+                <div className="contact-info-item">
+                  <h5>{t("contacts.email")}</h5>
+                  <span className="text-muted d-block">
                     info@jumbatec.com
                   </span>
-                </p>
+                </div>
               </div>
             </Col>
             <Col lg="8">
-              <div className="custom-form mt-4 pt-4">
+              <div className="contact-form-card">
                 <p id="error-msg" className="text-danger">
                   {error}
                 </p>
