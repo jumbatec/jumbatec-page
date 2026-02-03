@@ -11,7 +11,7 @@ class OurClients extends Component {
       {
         id: 1,
         name: "ISCET",
-        image: "assets/images/clients/iscet (1).jpg",
+        image: "assets/images/clients/iscet.png",
         category: t("ourClients.education"),
       },
       {
@@ -29,25 +29,25 @@ class OurClients extends Component {
       {
         id: 4,
         name: "EV Zambeze",
-        image: "assets/images/clients/evzambeze.jpeg",
+        image: "assets/images/clients/evzambeze.png",
         category: t("ourClients.education"),
       },
       {
         id: 5,
         name: "Sonhadores Possulane",
-        image: "assets/images/clients/sonhadores_possulane.jpeg",
+        image: "assets/images/clients/sonhadores_possulane.png",
         category: t("ourClients.education"),
       },
       {
         id: 6,
         name: "Colégio Wisdom",
-        image: "assets/images/clients/colegio_wisdom.jpeg",
+        image: "assets/images/clients/colegio_wisdom.png",
         category: t("ourClients.education"),
       },
       {
         id: 7,
         name: "Externato Luz do Dia",
-        image: "assets/images/clients/externato_luz_do_dia.jpeg",
+        image: "assets/images/clients/externato_luz_do_dia.png",
         category: t("ourClients.education"),
       },
       {
