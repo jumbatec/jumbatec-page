@@ -1,0 +1,285 @@
+{
+  "translation": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "platforms": "Platforms",
+      "contact": "Contact",
+      "cta": "Request a Demo"
+    },
+    "lang": {
+      "pt": "PT",
+      "en": "EN"
+    },
+    "hero": {
+      "tag": "Technology built in Mozambique",
+      "title": "We build the systems your institution needs to grow.",
+      "desc": "From school management to clinic management, we build robust platforms and provide specialized support for open-source solutions such as Apache Fineract.",
+      "cta1": "Request a Demo",
+      "cta2": "See Our Platforms"
+    },
+    "about": {
+      "subtitle": "About Us",
+      "title": "About JUMBATEC",
+      "text": "JUMBATEC is a Mozambican technology solutions company, dedicated to transforming businesses and institutions through technology. We build modern, efficient management systems tailored to each client, always focused on quality, innovation, and service excellence.",
+      "box1Title": "Experienced Team",
+      "box1Text": "A qualified team of software engineers dedicated to every project, from design to maintenance.",
+      "box2Title": "Tailored Solutions",
+      "box2Text": "Systems designed for the reality of Mozambican institutions, with local, close-by support."
+    },
+    "services": {
+      "subtitle": "Our Services",
+      "title": "Technology solutions for your business",
+      "items": {
+        "software": {
+          "title": "Custom Software Development",
+          "desc": "We build custom software to meet the specific needs of each client, using the latest technologies."
+        },
+        "fineract": {
+          "title": "Apache Fineract Support & Implementation",
+          "desc": "Implementation, customization and specialized technical support for Apache Fineract, for financial and microcredit institutions."
+        },
+        "systems": {
+          "title": "Integrated Management Systems",
+          "desc": "Platforms such as SGE-PRO, Dokodela and Admissão Garantida, designed to streamline your institution's management."
+        },
+        "web": {
+          "title": "Websites & Business Email",
+          "desc": "We create responsive, professional websites and set up business email for efficient communication."
+        },
+        "marketing": {
+          "title": "Digital Marketing",
+          "desc": "Digital marketing strategies integrated with artificial intelligence to boost your online visibility."
+        },
+        "ai": {
+          "title": "Artificial Intelligence Solutions",
+          "desc": "We build AI-based solutions that automate processes and improve operational efficiency."
+        }
+      }
+    },
+    "howWork": {
+      "subtitle": "Admissão Garantida",
+      "title": "Complete preparation for higher-education entrance exams",
+      "items": {
+        "simulados": {
+          "title": "Mock exams in the real exam format",
+          "desc": "Timed exams, in the same format and duration as the real entrance exams, with instant grading."
+        },
+        "disciplinas": {
+          "title": "20+ subjects available",
+          "desc": "Content organized by subject and by higher-education institution, with thousands of questions."
+        },
+        "subscricao": {
+          "title": "500+ Real Mock Exams",
+          "desc": "A library of 500+ real mock exams from past entrance exam editions, to practice as much as you need."
+        },
+        "pagamento": {
+          "title": "Payment via M-Pesa and eMola",
+          "desc": "Checkout integrated with Mozambique's leading mobile wallets."
+        }
+      },
+      "stepsHeading": "How Does Admissão Garantida Work?",
+      "stepsSubheading": "A smart cycle that takes you from preparation to admission.",
+      "steps": {
+        "step1": { "title": "Simulate the Exam", "desc": "Take full mock exams in the official format." },
+        "step2": { "title": "Identify Weaknesses", "desc": "AI analyzes and shows your weak points." },
+        "step3": { "title": "Study the Topic", "desc": "Study only what you really need to." }
+      },
+      "cta": "Access"
+    },
+    "sgePro": {
+      "subtitle": "Student Management",
+      "title": "SGE-PRO Student Management System",
+      "text": "SGE-PRO is a system built by JUMBATEC to help educational institutions streamline their academic and financial management.",
+      "box1Title": "Real-Time Payments",
+      "box1Text": "Tuition and fee control with digital payment integration and automatic receipt issuance.",
+      "box2Title": "WhatsApp Communication",
+      "box2Text": "Automatic SMS and WhatsApp notifications for students and guardians.",
+      "cta": "Request a Demo"
+    },
+    "whyUs": {
+      "subtitle": "Experience & Trust",
+      "title": "We build technology Mozambican institutions trust",
+      "text1": "We work side by side with schools, clinics and companies to design systems that solve real day-to-day management problems.",
+      "text2": "Close support, in Portuguese or English, from a team that understands the Mozambican context.",
+      "cta": "See Our Platforms",
+      "stat1Number": "16+",
+      "stat1Label": "Client Institutions",
+      "stat2Number": "03",
+      "stat2Label": "Own Platforms",
+      "stat3Label": "Built in Mozambique",
+      "stat3Title": "Local Support",
+      "stat3Text": "Our own team, no middlemen"
+    },
+    "clients": {
+      "title": "16+ institutions trust JUMBATEC",
+      "description": "We're privileged to work with education, health and other sector institutions that trust our technology solutions to drive their businesses forward."
+    },
+    "videoTestimonials": {
+      "subtitle": "Testimonials",
+      "title": "What Our Clients Say",
+      "description": "Hear directly from the institutions that have already transformed their management with JUMBATEC's solutions.",
+      "video1Title": "Colégio Bom Futuro Testimonial",
+      "video1Description": "Learn about Colégio Bom Futuro's experience with SGE-PRO, our student management system.",
+      "video2Title": "ISPOTEC Testimonial",
+      "video2Description": "Discover how ISPOTEC benefited from our technology management platforms.",
+      "ctaText": "Want to be our next success story?",
+      "ctaButton": "Talk to Us"
+    },
+    "closingCta": {
+      "title": "Ready to transform your institution's management?",
+      "text": "Talk to our team and find out which of our platforms, or which tailor-made solution, is right for you.",
+      "cta": "Talk to Us"
+    },
+    "closingCtaSge": {
+      "title": "Ready to Digitize Your School's Management?",
+      "text": "SGE-PRO helps schools, institutes and universities simplify academic and financial management, from student registration to payment control.",
+      "cta": "Request an SGE-PRO Demo"
+    },
+    "footer": {
+      "text": "Technology solutions built in Mozambique: management systems, Apache Fineract support and custom software development.",
+      "pagesTitle": "Pages",
+      "contactTitle": "Talk to Us",
+      "addressLabel": "Address",
+      "address": "Av. Zedequias Mangalhela, Nr 520, 9th Floor, Maputo",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "whatsappLabel": "WhatsApp",
+      "whatsappButton": "Chat on WhatsApp",
+      "copyright": "Copyright © JUMBATEC, LDA. All rights reserved."
+    },
+    "contact": {
+      "addressTitle": "Our Address",
+      "emailTitle": "Email",
+      "emailDesc": "Send us a message anytime.",
+      "phoneTitle": "Phone",
+      "phoneDesc": "Call us to speak with our team.",
+      "formTitle": "Ready to get started?",
+      "formDesc": "Fill in the form and we will get back to you as soon as possible.",
+      "namePlaceholder": "Your name*",
+      "emailPlaceholder": "Your email*",
+      "phonePlaceholder": "Your contact number*",
+      "messagePlaceholder": "Your message*",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "errors": {
+        "nameRequired": "Please enter your name.",
+        "emailRequired": "Please enter a valid email.",
+        "phoneRequired": "Please enter your contact number.",
+        "messageRequired": "Please write your message.",
+        "generic": "Could not send the message. Please try again or reach us on WhatsApp."
+      },
+      "success": {
+        "title": "Message sent!",
+        "message": "Thanks for reaching out. Our team will get back to you shortly."
+      }
+    },
+    "breadcrumb": {
+      "about": "About Us",
+      "services": "Services",
+      "platforms": "Platforms",
+      "contact": "Contact"
+    },
+    "team": {
+      "title": "Our Team",
+      "judiao": { "name": "Judiao Mbaua", "role": "Executive Director" },
+      "eneth": { "name": "Eneth Vanessa", "role": "Marketing and Sales Director" },
+      "hassimina": { "name": "Hassimina Mbaua", "role": "Financial Director" },
+      "edmilson": { "name": "Edmilson", "role": "Senior Software Developer" },
+      "braimo": { "name": "Braimo Selimane", "role": "Technical Team" }
+    },
+    "platformsPage": {
+      "title": "Platforms",
+      "subtitle": "What We Build",
+      "heading": "Our Platforms",
+      "description": "Three in-house systems, live in production, streamlining management for schools, clinics and students across Mozambique.",
+      "viewClients": "See the institutions that trust us",
+      "objectiveLabel": "Objective",
+      "featuresLabel": "Key Features",
+      "dokodela": {
+        "tag": "Clinic Management",
+        "title": "Dokodela",
+        "desc": "Integrated hospital management system: patients, insurers, stock, billing and scheduling in one place.",
+        "intro": "Dokodela is our Integrated Clinic Management System: a platform built to digitize and automate the administrative, clinical and financial processes of clinics, hospitals and medical centers. It covers the entire patient journey — from registration and scheduling, through clinical care and diagnosis, to billing, insurer collections and financial reporting — removing manual work and reducing errors at every step.",
+        "objective": "Modernize clinic and hospital management, from patient care to closing accounts with insurers.",
+        "features": [
+          "Patient and Insurance Management",
+          "Daily Billing and Collection Map Issuance",
+          "Automatic Insurance Debt Control",
+          "Automatic Calculation of Doctors' Salaries",
+          "Stock and Warehouse Management",
+          "Clinical Services Management",
+          "Appointment Scheduling",
+          "Real-Time Reports and Dashboards"
+        ]
+      },
+      "sgePro": {
+        "tag": "Student Management",
+        "title": "SGE-PRO",
+        "desc": "Complete academic and financial management for schools, institutes and universities.",
+        "intro": "SGE-PRO is our Student Management System: a platform built to digitize and centralize the academic, administrative and financial management of educational institutions, from student enrollment to the issuing of report cards, documents and reports. It covers the whole school cycle — enrollment, classes and subjects, grading, attendance and tuition control — with a single dashboard for school leadership to track academic and financial indicators in real time.",
+        "objective": "Streamline an entire institution's academic and financial management in a single system.",
+        "features": [
+          "Simplified and Intelligent Student Management",
+          "Real-Time Tuition and Fee Payment Control",
+          "Digital Payment Integration",
+          "WhatsApp and SMS Integration & Notifications",
+          "Attendance Control",
+          "Teacher, Class and Staff Management",
+          "Academic and Financial Reports"
+        ]
+      },
+      "admissaoGarantida": {
+        "tag": "Exam Preparation",
+        "title": "Admissão Garantida",
+        "desc": "Mock-exam and preparation platform for higher-education entrance exams.",
+        "objective": "Prepare Mozambican students for the UEM and UP entrance exams, with mock exams in the real format and smart progress tracking.",
+        "features": [
+          "Timed Mock Exams in the Real Exam Format",
+          "20+ Subjects, Organized by University",
+          "Real-Time Performance Dashboard, by Subject",
+          "Automatic Weak-Point Detection",
+          "Personalized Study Suggestions",
+          "500+ Real Mock Exams Available",
+          "Payment via M-Pesa and eMola"
+        ]
+      },
+      "fineractTag": "Fintech & Open Source",
+      "fineractTitle": "Apache Fineract Support",
+      "fineractDesc": "Implementation and technical support for Apache Fineract, for microfinance institutions, credit unions and fintechs.",
+      "fineractObjective": "Give Mozambican financial institutions a robust open-source technology base, without proprietary licensing lock-in.",
+      "fineractFeatures": [
+        "Open-Source Core Banking (accounts, savings, loans)",
+        "Client, Group and Center Management",
+        "Fully Configurable Interest and Fee Engine",
+        "Open REST API for Integrations (mobile money, branches)",
+        "Financial and Regulatory Reporting",
+        "Scalable, Multi-Tenant Architecture",
+        "Implementation, Customization and Technical Support by JUMBATEC"
+      ],
+      "more": {
+        "subtitle": "And We Don't Stop There",
+        "title": "10+ Management Platforms",
+        "description": "Beyond our own products, we build tailor-made management modules for any industry.",
+        "items": {
+          "bakery": "Bakery & Restaurant Management",
+          "hr": "Human Resources",
+          "accounting": "Accounting",
+          "assets": "Asset Management",
+          "banking": "Banking & Microfinance Management",
+          "stock": "Stock & Sales Management",
+          "documents": "Document Management",
+          "projects": "Project Management",
+          "crm": "Customer Management (CRM)",
+          "hospitality": "Hospitality Management"
+        }
+      }
+    },
+    "techStack": {
+      "title": "The Technologies Behind Our Solutions",
+      "frontend": "Front End",
+      "backend": "Back End"
+    }
+  }
+}

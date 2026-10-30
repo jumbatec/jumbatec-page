@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "/assets/images/icon/serviceIcon3_1.svg",
+    "key": "software"
+  },
+  {
+    "icon": "/assets/images/icon/serviceIcon3_2.svg",
+    "key": "fineract"
+  },
+  {
+    "icon": "/assets/images/icon/serviceIcon3_3.svg",
+    "key": "systems"
+  },
+  {
+    "icon": "/assets/images/icon/serviceIcon3_5.svg",
+    "key": "web"
+  },
+  {
+    "icon": "/assets/images/icon/serviceIcon3_6.svg",
+    "key": "marketing"
+  },
+  {
+    "icon": "/assets/images/icon/serviceIcon1_6.svg",
+    "key": "ai"
+  }
+]

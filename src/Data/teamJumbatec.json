@@ -1,0 +1,27 @@
+[
+  {
+    "img": "/assets/images/logo/jumbatec-sign-blue.png",
+    "titleKey": "team.judiao.name",
+    "descKey": "team.judiao.role"
+  },
+  {
+    "img": "/assets/images/logo/jumbatec-sign-blue.png",
+    "titleKey": "team.eneth.name",
+    "descKey": "team.eneth.role"
+  },
+  {
+    "img": "/assets/images/logo/jumbatec-sign-blue.png",
+    "titleKey": "team.hassimina.name",
+    "descKey": "team.hassimina.role"
+  },
+  {
+    "img": "/assets/images/logo/jumbatec-sign-blue.png",
+    "titleKey": "team.edmilson.name",
+    "descKey": "team.edmilson.role"
+  },
+  {
+    "img": "/assets/images/logo/jumbatec-sign-blue.png",
+    "titleKey": "team.braimo.name",
+    "descKey": "team.braimo.role"
+  }
+]

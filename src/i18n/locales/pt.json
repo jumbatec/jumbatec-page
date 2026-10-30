@@ -1,0 +1,287 @@
+{
+  "translation": {
+    "nav": {
+      "home": "Início",
+      "about": "Sobre Nós",
+      "services": "Serviços",
+      "platforms": "Plataformas",
+      "contact": "Contacto",
+      "cta": "Pedir Demonstração"
+    },
+    "lang": {
+      "pt": "PT",
+      "en": "EN"
+    },
+    "hero": {
+      "tag": "Tecnologia feita em Moçambique",
+      "title": "Construímos sistemas que a sua instituição precisa para crescer.",
+      "desc": "Da gestão escolar à gestão clínica, desenvolvemos plataformas robustas e damos suporte especializado em soluções open-source como o Apache Fineract.",
+      "cta1": "Pedir Demonstração",
+      "cta2": "Ver as Nossas Plataformas"
+    },
+    "about": {
+      "subtitle": "Sobre Nós",
+      "title": "Sobre a JUMBATEC",
+      "text": "A JUMBATEC é uma empresa moçambicana de soluções tecnológicas, dedicada a transformar negócios e instituições através da tecnologia. Desenvolvemos sistemas de gestão modernos e eficientes, à medida de cada cliente, sempre com foco em qualidade, inovação e excelência no atendimento.",
+      "box1Title": "Equipa Experiente",
+      "box1Text": "Uma equipa qualificada de engenheiros de software dedicada a cada projecto, do desenho à manutenção.",
+      "box2Title": "Soluções à Medida",
+      "box2Text": "Sistemas desenhados para a realidade das instituições Moçambicanas, com suporte local e próximo do cliente."
+    },
+    "services": {
+      "subtitle": "Os Nossos Serviços",
+      "title": "Soluções tecnológicas para o seu negócio",
+      "items": {
+        "software": {
+          "title": "Desenvolvimento de Software à Medida",
+          "desc": "Criamos software personalizado para atender às necessidades específicas de cada cliente, usando as tecnologias mais recentes."
+        },
+        "fineract": {
+          "title": "Suporte e Implementação Apache Fineract",
+          "desc": "Implementação, customização e suporte técnico especializado em Apache Fineract para instituições financeiras e de microcrédito."
+        },
+        "systems": {
+          "title": "Sistemas de Gestão Integrados",
+          "desc": "Plataformas como o SGE-PRO, Dokodela e Admissão Garantida, desenhadas para dinamizar a gestão da sua instituição."
+        },
+        "web": {
+          "title": "Websites e Email Empresarial",
+          "desc": "Criamos websites responsivos e profissionais, além de configurar emails empresariais para comunicação eficiente."
+        },
+        "marketing": {
+          "title": "Marketing Digital",
+          "desc": "Estratégias de marketing digital integradas com inteligência artificial para aumentar a sua visibilidade online."
+        },
+        "ai": {
+          "title": "Soluções em Inteligência Artificial",
+          "desc": "Desenvolvemos soluções baseadas em IA que automatizam processos e melhoram a eficiência operacional."
+        }
+      }
+    },
+    "howWork": {
+      "subtitle": "Admissão Garantida",
+      "title": "Preparação completa para os exames de acesso ao Ensino Superior",
+      "items": {
+        "simulados": {
+          "title": "Simulados no formato real do exame",
+          "desc": "Exames cronometrados, no mesmo formato e duração dos exames de admissão reais, com correcção imediata."
+        },
+        "disciplinas": {
+          "title": "Mais de 20 disciplinas disponíveis",
+          "desc": "Conteúdo organizado por disciplina e por instituição de ensino superior, com milhares de questões."
+        },
+        "subscricao": {
+          "title": "Mais de 500 Simulados Reais",
+          "desc": "Biblioteca com mais de 500 simulados reais de exames de edições anteriores, para praticares à vontade."
+        },
+        "pagamento": {
+          "title": "Pagamento via M-Pesa e eMola",
+          "desc": "Checkout integrado com as principais carteiras móveis de Moçambique."
+        }
+      },
+      "stepsHeading": "Como Funciona a Admissão Garantida?",
+      "stepsSubheading": "Um ciclo inteligente que te leva da preparação à admissão.",
+      "steps": {
+        "step1": { "title": "Simula o Exame", "desc": "Faz simulados completos no formato oficial." },
+        "step2": { "title": "Identifica Fraquezas", "desc": "A IA analisa e mostra os teus pontos fracos." },
+        "step3": { "title": "Estuda o Tópico", "desc": "Estuda apenas o que realmente precisas." }
+      },
+      "cta": "Aceder"
+    },
+    "sgePro": {
+      "subtitle": "Gestão Estudantil",
+      "title": "Sistema de Gestão Estudantil SGE-PRO",
+      "text": "O SGE-PRO é um sistema desenvolvido pela JUMBATEC para ajudar as instituições de ensino a dinamizar toda a sua gestão académica e financeira.",
+      "box1Title": "Pagamentos em Tempo Real",
+      "box1Text": "Controlo de propinas e taxas com integração de pagamentos digitais e emissão automática de recibos.",
+      "box2Title": "Comunicação via WhatsApp",
+      "box2Text": "Notificações automáticas por SMS e WhatsApp para estudantes e encarregados de educação.",
+      "cta": "Pedir Demonstração"
+    },
+    "whyUs": {
+      "subtitle": "Experiência & Confiança",
+      "title": "Construímos tecnologia em que as instituições Moçambicanas confiam",
+      "text1": "Trabalhamos lado a lado com escolas, clínicas e empresas para desenhar sistemas que resolvem problemas reais da gestão do dia-a-dia.",
+      "text2": "Suporte próximo, em Português, com uma equipa que entende o contexto Moçambicano.",
+      "cta": "Ver as Nossas Plataformas",
+      "stat1Number": "16+",
+      "stat1Label": "Instituições Clientes",
+      "stat2Number": "03",
+      "stat2Label": "Plataformas Próprias",
+      "stat3Label": "Feito em Moçambique",
+      "stat3Title": "Suporte Local",
+      "stat3Text": "Equipa própria, sem intermediários"
+    },
+    "clients": {
+      "title": "Mais de 16 instituições confiam na JUMBATEC",
+      "description": "Temos o privilégio de trabalhar com instituições de ensino, saúde e outros sectores que confiam nas nossas soluções tecnológicas para impulsionar os seus negócios."
+    },
+    "videoTestimonials": {
+      "subtitle": "Testemunhos",
+      "title": "O Que Dizem os Nossos Clientes",
+      "description": "Ouça directamente das instituições que já transformaram a sua gestão com as soluções da JUMBATEC.",
+      "video1Title": "Depoimento Colégio Bom Futuro",
+      "video1Description": "Conheça a experiência do Colégio Bom Futuro com o SGE-PRO, o nosso sistema de gestão estudantil.",
+      "video2Title": "Depoimento ISPOTEC",
+      "video2Description": "Descubra como o ISPOTEC beneficiou das nossas plataformas tecnológicas de gestão.",
+      "ctaText": "Quer ser o próximo caso de sucesso?",
+      "ctaButton": "Fale Connosco"
+    },
+    "closingCta": {
+      "title": "Pronto para transformar a gestão da sua instituição?",
+      "text": "Fale com a nossa equipa e descubra qual das nossas plataformas, ou qual solução à medida, é ideal para si.",
+      "cta": "Fale Connosco"
+    },
+    "closingCtaSge": {
+      "title": "Pronto para Digitalizar a Gestão da Sua Instituição de Ensino?",
+      "text": "O SGE-PRO ajuda escolas, institutos e universidades a simplificar a gestão académica e financeira, do registo de estudantes ao controlo de pagamentos.",
+      "cta": "Pedir Demonstração do SGE-PRO"
+    },
+    "footer": {
+      "text": "Soluções tecnológicas feitas em Moçambique: sistemas de gestão, suporte Apache Fineract e desenvolvimento de software à medida.",
+      "pagesTitle": "Páginas",
+      "contactTitle": "Fale Connosco",
+      "addressLabel": "Endereço",
+      "address": "Av. Zedequias Mangalhela, Nr 520, 9º Andar, Maputo",
+      "emailLabel": "Email",
+      "phoneLabel": "Contacto",
+      "whatsappLabel": "WhatsApp",
+      "whatsappButton": "Falar no WhatsApp",
+      "copyright": "Copyright © JUMBATEC, LDA. Todos os direitos reservados."
+    },
+    "contact": {
+      "addressTitle": "O Nosso Endereço",
+      "emailTitle": "Email",
+      "emailDesc": "Envie-nos uma mensagem a qualquer momento.",
+      "phoneTitle": "Contacto",
+      "phoneDesc": "Ligue-nos para falar com a nossa equipa.",
+      "formTitle": "Pronto para começar?",
+      "formDesc": "Preencha o formulário e entraremos em contacto consigo o mais breve possível.",
+      "namePlaceholder": "O seu nome*",
+      "emailPlaceholder": "O seu email*",
+      "phonePlaceholder": "O seu contacto*",
+      "messagePlaceholder": "A sua mensagem*",
+      "submit": "Enviar Mensagem",
+      "sending": "A enviar...",
+      "errors": {
+        "nameRequired": "Por favor, indique o seu nome.",
+        "emailRequired": "Por favor, indique um email válido.",
+        "phoneRequired": "Por favor, indique o seu contacto.",
+        "messageRequired": "Por favor, escreva a sua mensagem.",
+        "generic": "Não foi possível enviar a mensagem. Tente novamente ou contacte-nos via WhatsApp."
+      },
+      "success": {
+        "title": "Mensagem enviada!",
+        "message": "Obrigado pelo contacto. A nossa equipa irá responder o mais breve possível."
+      }
+    },
+    "breadcrumb": {
+      "about": "Sobre Nós",
+      "services": "Serviços",
+      "platforms": "Plataformas",
+      "contact": "Contacto"
+    },
+    "team": {
+      "title": "A Nossa Equipa",
+      "judiao": { "name": "Judiao Mbaua", "role": "Diretor Executivo" },
+      "eneth": { "name": "Eneth Vanessa", "role": "Diretora de Marketing e Vendas" },
+      "hassimina": { "name": "Hassimina Mbaua", "role": "Diretora Financeira" },
+      "edmilson": { "name": "Edmilson", "role": "Desenvolvedor de Software Sénior" },
+      "braimo": { "name": "Braimo Selimane", "role": "Equipa Técnica" }
+    },
+    "platformsPage": {
+      "title": "Plataformas",
+      "subtitle": "O Que Construímos",
+      "heading": "As Nossas Plataformas",
+      "description": "Três sistemas próprios, em produção, a dinamizar a gestão de escolas, clínicas e estudantes em Moçambique.",
+      "viewClients": "Ver instituições que confiam em nós",
+      "objectiveLabel": "Objectivo",
+      "featuresLabel": "Principais Funcionalidades",
+      "dokodela": {
+        "tag": "Gestão Clínica",
+        "title": "Dokodela",
+        "desc": "Sistema integrado de gestão hospitalar: pacientes, seguradoras, stock, faturação e agendamentos num só lugar.",
+        "intro": "A Dokodela é o nosso Sistema Integrado de Gestão de Clínicas: uma plataforma concebida para digitalizar e automatizar os processos administrativos, clínicos e financeiros de clínicas, hospitais e centros médicos. A solução cobre todo o ciclo do paciente — desde o registo e agendamento, passando pelo atendimento clínico e diagnóstico, até à facturação, cobrança às seguradoras e emissão de relatórios financeiros — eliminando o trabalho manual e reduzindo erros em cada etapa.",
+        "objective": "Modernizar a gestão de clínicas e hospitais, do atendimento ao paciente até ao fecho de contas com as seguradoras.",
+        "features": [
+          "Gestão de Pacientes e Seguradoras",
+          "Diário de Faturação e Emissão de Mapas de Cobrança",
+          "Controlo Automático de Dívidas das Seguradoras",
+          "Cálculo Automático de Salários dos Médicos",
+          "Gestão de Stock e Armazém",
+          "Gestão de Serviços Clínicos",
+          "Agendamento de Consultas",
+          "Relatórios e Dashboards em Tempo Real"
+        ]
+      },
+      "sgePro": {
+        "tag": "Gestão Estudantil",
+        "title": "SGE-PRO",
+        "desc": "Gestão académica e financeira completa para escolas, institutos e universidades.",
+        "intro": "O SGE-PRO é o nosso Sistema de Gestão Estudantil: uma plataforma concebida para digitalizar e centralizar a gestão académica, administrativa e financeira de instituições de ensino, desde a matrícula do estudante até à emissão de pautas, documentos e relatórios. Cobre todo o ciclo escolar — inscrições e matrículas, turmas e disciplinas, lançamento de notas, controlo de presenças e de propinas — com um dashboard único para a direcção acompanhar os indicadores académicos e financeiros em tempo real.",
+        "objective": "Dinamizar toda a gestão académica e financeira de uma instituição de ensino, num único sistema.",
+        "features": [
+          "Gestão Estudantil Simplificada e Inteligente",
+          "Controlo de Pagamentos de Propinas e Taxas em Tempo Real",
+          "Integração com Pagamentos Digitais",
+          "Integração e Notificações via WhatsApp e SMS",
+          "Controlo de Presenças",
+          "Gestão de Professores, Turmas e Funcionários",
+          "Relatórios Académicos e Financeiros"
+        ]
+      },
+      "admissaoGarantida": {
+        "tag": "Preparação para Exames",
+        "title": "Admissão Garantida",
+        "desc": "Plataforma de simulados e preparação para os exames de acesso ao Ensino Superior.",
+        "intro": "A Admissão Garantida é uma aplicação multiplataforma — móvel e web — desenhada para apoiar estudantes moçambicanos na preparação para os exames de admissão às principais universidades do país. Estrutura-se em dois componentes complementares: simulação de exames reais, com perguntas de edições anteriores, cronometragem fiel e explicações detalhadas de cada resposta; e uma biblioteca de conteúdo temático organizada por capítulos e secções, lida directamente num leitor integrado. Quando a análise de desempenho identifica uma fraqueza, a plataforma sugere automaticamente o conteúdo certo para estudar, fechando o ciclo entre simular, identificar e estudar.",
+        "objective": "Preparar estudantes moçambicanos para os exames de admissão à UEM e UP, com simulados no formato real e acompanhamento inteligente do progresso.",
+        "features": [
+          "Simulados no Formato Real do Exame, Cronometrados",
+          "Mais de 20 Disciplinas, Organizadas por Universidade",
+          "Dashboard de Desempenho em Tempo Real, por Disciplina",
+          "Identificação Automática de Pontos Fracos",
+          "Sugestões de Estudo Personalizadas",
+          "Mais de 500 Simulados Reais Disponíveis",
+          "Pagamento via M-Pesa e eMola"
+        ]
+      },
+      "fineractTag": "Fintech & Open Source",
+      "fineractTitle": "Suporte Apache Fineract",
+      "fineractDesc": "Implementação e suporte técnico do Apache Fineract para instituições de microfinança, cooperativas de crédito e fintechs.",
+      "fineractIntro": "O Apache Fineract é uma plataforma open-source de core bancário, mantida pela Apache Software Foundation e usada por instituições financeiras em todo o mundo para gerir contas, poupanças e empréstimos. A JUMBATEC assume a implementação completa desta plataforma para instituições moçambicanas: instalação e configuração do sistema, parametrização de produtos financeiros à medida de cada instituição, integração com serviços de mobile money e suporte técnico contínuo — sem dependência de licenciamento proprietário.",
+      "fineractObjective": "Dar às instituições financeiras moçambicanas uma base tecnológica open-source robusta, sem dependência de licenciamento proprietário.",
+      "fineractFeatures": [
+        "Core Bancário Open-Source (contas, poupanças, empréstimos)",
+        "Gestão de Clientes, Grupos e Centros",
+        "Motor de Juros e Taxas Totalmente Configurável",
+        "API REST Aberta para Integrações (mobile money, agências)",
+        "Relatórios Financeiros e Regulatórios",
+        "Arquitectura Escalável e Multi-Tenant",
+        "Implementação, Customização e Suporte Técnico pela JUMBATEC"
+      ],
+      "more": {
+        "subtitle": "E Não Paramos Por Aqui",
+        "title": "Mais de 10 Plataformas de Gestão",
+        "description": "Além dos nossos produtos próprios, desenvolvemos módulos de gestão à medida para qualquer sector de actividade.",
+        "items": {
+          "bakery": "Gestão de Padaria e Restauração",
+          "hr": "Recursos Humanos",
+          "accounting": "Contabilidade",
+          "assets": "Património",
+          "banking": "Gestão Bancária e Microfinanças",
+          "stock": "Gestão de Stock e Vendas",
+          "documents": "Gestão Documental",
+          "projects": "Gestão de Projectos",
+          "crm": "Gestão de Clientes (CRM)",
+          "hospitality": "Gestão Hoteleira"
+        }
+      }
+    },
+    "techStack": {
+      "title": "As Tecnologias por Trás das Nossas Soluções",
+      "frontend": "Front End",
+      "backend": "Back End"
+    }
+  }
+}

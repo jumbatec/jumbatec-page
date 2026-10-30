@@ -1,0 +1,32 @@
+[
+  {
+    "img": "/assets/images/icon/serviceIcon1_1.svg",
+    "key": "software",
+    "addclass": "service-box style1 active wow fadeInUp"
+  },
+  {
+    "img": "/assets/images/icon/serviceIcon1_2.svg",
+    "key": "fineract",
+    "addclass": "service-box style1 wow fadeInUp"
+  },
+  {
+    "img": "/assets/images/icon/serviceIcon1_3.svg",
+    "key": "systems",
+    "addclass": "service-box style1 wow fadeInUp"
+  },
+  {
+    "img": "/assets/images/icon/serviceIcon1_4.svg",
+    "key": "web",
+    "addclass": "service-box style1 wow fadeInUp"
+  },
+  {
+    "img": "/assets/images/icon/serviceIcon1_5.svg",
+    "key": "marketing",
+    "addclass": "service-box style1 wow fadeInUp"
+  },
+  {
+    "img": "/assets/images/icon/serviceIcon1_6.svg",
+    "key": "ai",
+    "addclass": "service-box style1 wow fadeInUp"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  { "img": "/assets/images/clients/colus.png", "name": "COLUS" },
+  { "img": "/assets/images/clients/ispotec.png", "name": "ISPOTEC" },
+  { "img": "/assets/images/clients/iscet.jpg", "name": "ISCET" },
+  { "img": "/assets/images/clients/imet.jpg", "name": "IMET" },
+  { "img": "/assets/images/clients/global_academy.png", "name": "Global Academy" },
+  { "img": "/assets/images/clients/colegiobomfuturo.png", "name": "Colégio Bom Futuro" },
+  { "img": "/assets/images/clients/colegiowisdom.png", "name": "Colégio Wisdom" },
+  { "img": "/assets/images/clients/colegiowhurula.jpeg", "name": "Colégio Whurula" },
+  { "img": "/assets/images/clients/escolabosquelogo.png", "name": "Escola O Bosque" },
+  { "img": "/assets/images/clients/luzdosaber.jpeg", "name": "Luz do Saber" },
+  { "img": "/assets/images/clients/emmanuel.png", "name": "Emmanuel" },
+  { "img": "/assets/images/clients/evzambeze.jpeg", "name": "EV Zambeze" },
+  { "img": "/assets/images/clients/dentalcareformacao.png", "name": "Dental Care Formação" },
+  { "img": "/assets/images/clients/clinoptica.jpeg", "name": "Clínóptica" },
+  { "img": "/assets/images/clients/bluesky.png", "name": "Blue Sky" },
+  { "img": "/assets/images/clients/sonhadoresdepossulane.jpeg", "name": "Sonhadores de Possulane" }
+]
