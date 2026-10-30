@@ -73,47 +73,47 @@ const Brand3 = () => {
                 <div className={`tab-pane ${isActive === 'yearly' ? 'active' : ''}`} id="Back" >
                     <div className="technology-box-items-wrapper style-4 mt-0">
                         <div className="technology-box-items style-4">
-                            <div className="logo"> 
-                                <img src="/assets/images/tag/01.png" alt="img" />
+                            <div className="logo">
+                                <img src="/assets/images/icon/java.svg" alt="img" />
                             </div>
-                            <div className="title">HTML5</div>
+                            <div className="title">Java</div>
                         </div>
                         <div className="technology-box-items style-4">
-                            <div className="logo"> 
-                                <img src="/assets/images/tag/02.png" alt="img" />
+                            <div className="logo">
+                                <img src="/assets/images/icon/nodejs.png" alt="img" />
                             </div>
-                            <div className="title">CSS3</div>
+                            <div className="title">Node.js</div>
                         </div>
                         <div className="technology-box-items style-4">
-                            <div className="logo"> 
-                                <img src="/assets/images/tag/03.png" alt="img" />
+                            <div className="logo">
+                                <img src="/assets/images/icon/python.png" alt="img" />
                             </div>
-                            <div className="title">Sass</div>
+                            <div className="title">Python</div>
                         </div>
                         <div className="technology-box-items style-4">
-                            <div className="logo"> 
-                                <img src="/assets/images/tag/07.png" alt="img" />
+                            <div className="logo">
+                                <img src="/assets/images/icon/springboot.svg" alt="img" />
                             </div>
-                            <div className="title">Next.js</div>
+                            <div className="title">Spring Boot</div>
                         </div>
                         <div className="technology-box-items style-4">
-                            <div className="logo"> 
-                                <img src="/assets/images/tag/04.png" alt="img" />
+                            <div className="logo">
+                                <img src="/assets/images/icon/express.svg" alt="img" />
                             </div>
-                            <div className="title">JavaScript</div>
+                            <div className="title">Express</div>
                         </div>
                         <div className="technology-box-items style-4">
-                            <div className="logo"> 
-                                <img src="/assets/images/tag/05.png" alt="img" />
+                            <div className="logo">
+                                <img src="/assets/images/icon/docker.svg" alt="img" />
                             </div>
-                            <div className="title">React</div>
+                            <div className="title">Docker</div>
                         </div>
                         <div className="technology-box-items style-4">
-                            <div className="logo"> 
-                                <img src="/assets/images/tag/06.png" alt="img" />
+                            <div className="logo">
+                                <img src="/assets/images/icon/kubernetes.svg" alt="img" />
                             </div>
-                            <div className="title">TypeScript</div>
-                        </div>                       
+                            <div className="title">Kubernetes</div>
+                        </div>
                     </div>
                 </div>
             </div>
