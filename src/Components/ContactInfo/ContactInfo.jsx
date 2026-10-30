@@ -172,7 +172,7 @@ const ContactInfo = () => {
     </section>
 
     
-    <section className="contact-form-section section-padding pt-0 fix">
+    <section id="contact-form-section" className="contact-form-section section-padding pt-0 fix">
         <div className="container">
             <div className="contact-form-wrapper style1">
                 <div className="row gy-5 gx-60">

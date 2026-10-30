@@ -23,7 +23,7 @@ const AboutPage = () => {
                     t('services.items.fineract.title'),
                 ]}
                 btnname={t('nav.cta')}
-                btnurl="/contact"
+                btnurl="/contact#contact-form-section"
             ></About4>
             <Team2></Team2>
         </div>

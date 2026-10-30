@@ -6083,11 +6083,18 @@ input.main-search-input::placeholder {
   position: absolute;
   left: -76px;
   top: 176px;
+  max-width: 190px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+.intro-container-wrapper.style2 .thumb-box .main-thumb .thumb1 img,
+.intro-container-wrapper.style2 .thumb-box .main-thumb .thumb2 img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 @media (max-width: 1399px) {
   .intro-container-wrapper.style2 .thumb-box .main-thumb .thumb1 {
@@ -6104,6 +6111,7 @@ input.main-search-input::placeholder {
   position: absolute;
   right: -89px;
   top: 76px;
+  max-width: 170px;
   border-radius: 36.955px;
 }
 @media (max-width: 1399px) {

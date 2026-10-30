@@ -70,7 +70,6 @@ const Project1 = () => {
                             </div>
                             <h2 className="title wow fadeInUp" data-wow-delay=".4s">{t(`platformsPage.${p.key}.title`)}</h2>
                             <p className="text1 mxw-640 wow fadeInUp" data-wow-delay=".5s">{t(`platformsPage.${p.key}.intro`)}</p>
-                            <p className="text1 mxw-640 wow fadeInUp" data-wow-delay=".6s"><strong>{t('platformsPage.objectiveLabel')}:</strong> {t(`platformsPage.${p.key}.objective`)}</p>
                         </div>
                         <FeatureList features={t(`platformsPage.${p.key}.features`, { returnObjects: true })} />
                         {p.key === 'admissaoGarantida' ? (
@@ -88,7 +87,7 @@ const Project1 = () => {
                                 </svg>
                             </a>
                         ) : (
-                            <Link className="theme-btn rounded-5 wow fadeInUp mt-4" data-wow-delay=".4s" to="/contact">
+                            <Link className="theme-btn rounded-5 wow fadeInUp mt-4" data-wow-delay=".4s" to="/contact#contact-form-section">
                                 {t('nav.cta')}
                                 <svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                                     <path d="M11.6118 3.61182L10.8991 4.32454L14.0706 7.49603H0V8.50398H14.0706L10.8991 11.6754L11.6118 12.3882L16 7.99997L11.6118 3.61182Z" fill="white" />
@@ -114,10 +113,9 @@ const Project1 = () => {
                         </div>
                         <h2 className="title wow fadeInUp" data-wow-delay=".4s">{t('platformsPage.fineractTitle')}</h2>
                         <p className="text1 mxw-640 wow fadeInUp" data-wow-delay=".5s">{t('platformsPage.fineractIntro')}</p>
-                        <p className="text1 mxw-640 wow fadeInUp" data-wow-delay=".6s"><strong>{t('platformsPage.objectiveLabel')}:</strong> {t('platformsPage.fineractObjective')}</p>
                     </div>
                     <FeatureList features={t('platformsPage.fineractFeatures', { returnObjects: true })} />
-                    <Link className="theme-btn rounded-5 wow fadeInUp mt-4" data-wow-delay=".4s" to="/contact">
+                    <Link className="theme-btn rounded-5 wow fadeInUp mt-4" data-wow-delay=".4s" to="/contact#contact-form-section">
                         {t('nav.cta')}
                         <svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                             <path d="M11.6118 3.61182L10.8991 4.32454L14.0706 7.49603H0V8.50398H14.0706L10.8991 11.6754L11.6118 12.3882L16 7.99997L11.6118 3.61182Z" fill="white" />

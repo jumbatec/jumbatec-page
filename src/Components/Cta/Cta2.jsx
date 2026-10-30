@@ -19,7 +19,7 @@ const Cta2 = ({ img, titleKey, textKey, ctaKey, ctaUrl }) => {
                     </h2>
                     <p className="text wow fadeInUp" data-wow-delay=".5s">{t(textKey || 'closingCta.text')}</p>
 
-                    <Link to={ctaUrl || "/contact"}> <span className="theme-btn wow fadeInUp" data-wow-delay=".3s"> {t(ctaKey || 'closingCta.cta')}
+                    <Link to={ctaUrl || "/contact#contact-form-section"}> <span className="theme-btn wow fadeInUp" data-wow-delay=".3s"> {t(ctaKey || 'closingCta.cta')}
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
                                 fill="none">
                                 <g clipPath="url(#clip0_199_944)">

@@ -41,7 +41,7 @@ const VideoTestimonials = () => {
                 </div>
                 <div className="text-center mt-60">
                     <p className="mb-20">{t('videoTestimonials.ctaText')}</p>
-                    <Link className="theme-btn rounded-5" to="/contact">
+                    <Link className="theme-btn rounded-5" to="/contact#contact-form-section">
                         {t('videoTestimonials.ctaButton')}
                         <svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                             <path d="M11.6118 3.61182L10.8991 4.32454L14.0706 7.49603H0V8.50398H14.0706L10.8991 11.6754L11.6118 12.3882L16 7.99997L11.6118 3.61182Z" fill="white" />

@@ -17,7 +17,7 @@ const Home2 = () => {
                 subtitle={`<span>${t('hero.tag')}</span>`}
                 title={t('hero.title')}
                 btnname={t('hero.cta1')}
-                btnurl="/contact"
+                btnurl="/contact#contact-form-section"
                 btnname2={t('hero.cta2')}
                 btnurl2="/project"
                 img1="/assets/images/platforms/dokodela/hero-main.png"

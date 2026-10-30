@@ -44,7 +44,7 @@ const Brand2 = () => {
                         <h2 className="single-section-title wow fadeInUp" data-wow-delay=".2s">
                             {t('clients.title')}
                         </h2>
-                        <p className="text text-center mxw-685 mx-auto" style={{marginTop: '-20px', marginBottom: '40px'}}>
+                        <p className="text text-center mxw-685 mx-auto" style={{marginTop: '16px', marginBottom: '40px'}}>
                             {t('clients.description')}
                         </p>
                         <div className="row">

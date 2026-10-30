@@ -72,7 +72,7 @@ export default function Header2({ variant }) {
 
               <LanguageSwitcher />
                 <div className="header-button ms-4">
-                    <Link to="/contact" className="theme-btn">
+                    <Link to="/contact#contact-form-section" className="theme-btn">
                         <span>
                             {t('nav.cta')}
                             <i className="bi bi-arrow-right"></i>
